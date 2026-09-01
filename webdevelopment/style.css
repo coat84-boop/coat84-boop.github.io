@@ -1,6 +1,6 @@
 /* Change the page's background color */
 body {
-  background-color: lightblue;
+  background-color: aquamarine;
 }
 
 /* Headshot Styling Information */
@@ -9,13 +9,81 @@ body {
   height: 350px;
   display: block;
   margin: 0 auto;
+  border: solid;
+  border-color: black;
 }
   
 /* Style Header */
-header {
+.testheader {
   font-family: "Times New Roman", Times, serif;
+  font-size: 24pt;
   color: red;
+  background-color: antiquewhite;
   text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
+.TestRule {
+  color: orange;
+  background-color:aliceblue;
+  font-size: 40pt;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border:solid;
+  border-color: chartreuse;
+}
+
+.TestRule2 {
+  color:blueviolet;
+  background-color:azure;
+  font-size: 28pt;
+  font-weight:normal;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
+.TestRule3 {
+  color: lightgoldenrodyellow;
+  background-color:brown;
+  font-size: 32pt;
+  font-weight:bolder;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
+.TestRule4 {
+  color:rgb(139, 0, 86);
+  background-color:rgb(195, 200, 216);
+  font-size: 32pt;
+  font-weight:bolder;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
+.FooterTest {
+  color:black;
+  background-color: crimson;
+  font-size: 32pt;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
 }
 
 /* Style all paragraphs */
