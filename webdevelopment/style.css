@@ -1,6 +1,7 @@
 /*Change the page's background color */
 body {
   background-color: lightblue;
+  text-align: center;
 }
  
 /* Style Header */
