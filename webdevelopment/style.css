@@ -17,3 +17,10 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+
+/* Style Footers */
+footer {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
