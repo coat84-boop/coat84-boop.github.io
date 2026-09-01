@@ -1,13 +1,13 @@
 /*Change the page's background color */
 body {
   background-color: lightblue;
-  text-align: center;
 }
  
 /* Style Header */
 header {
   font-family: "Times New Roman", Times, serif;
   color: red;
+  text-align: center;
 }
 
 /* Style all paragraphs */
@@ -15,5 +15,5 @@ p {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-color: magenta;
+  text-align: center;
 }
