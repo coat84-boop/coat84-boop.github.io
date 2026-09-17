@@ -98,6 +98,30 @@ body {
   border-color: chartreuse;
 }
 
+.h2test {
+  color:black;
+  background-color: crimson;
+  font-size: 28pt;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
+.h3test {
+  color:black;
+  background-color: crimson;
+  font-size: 28pt;
+  font-weight: lighter;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: solid;
+  border-color: chartreuse;
+}
+
 /* Style all paragraphs */
 p {
   font-family: Arial, sans-serif;
