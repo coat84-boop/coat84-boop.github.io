@@ -1,156 +1,158 @@
-CSS
 /* ==========================
-Global Styles
+   Global Styles
 ========================== */
- 
+
 body {
-background-color: #F4F5F7;
-color: #000000;
-margin: 0;
-padding: 0;
-font-family: Inter, sans-serif;
+    background-color: #F4F5F7;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
 }
- 
+
+
 /* ==========================
-Headshot Styling
+   Navigation
 ========================== */
- 
-.headshot {
-width: 300px;
-height: 350px;
-display: block;
-margin: 20px auto;
-border: 3px solid #0000FF;
-border-radius: 8px;
-}
- 
-/* ==========================
-Navigation Header
-========================== */
- 
+
 .testheader {
-background-color: #0000FF;
-color: white;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-radius: 8px;
+    background-color: #0000FF;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
 }
- 
+
 .testheader a {
-color: white;
-text-decoration: none;
-margin: 0 15px;
-font-family: "Plus Jakarta Sans", sans-serif;
-font-weight: 600;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
 }
- 
+
 .testheader a:hover {
-color: #F59E0B;
+    color: #F59E0B;
 }
- 
+
+
 /* ==========================
-Main Headings
+   Headings
 ========================== */
- 
+
 .h1test {
-background-color: #0000FF;
-color: white;
-font-family: "Plus Jakarta Sans", sans-serif;
-text-align: center;
-padding: 15px;
-margin: 20px;
-border-radius: 8px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
 }
- 
+
 .h2test {
-background-color: #F4F5F7;
-color: #0000FF;
-font-family: "Plus Jakarta Sans", sans-serif;
-text-align: center;
-padding: 15px;
-margin: 20px;
+    color: #0000FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    margin: 20px;
 }
- 
+
 .h3test {
-color: #0000FF;
-font-family: "Plus Jakarta Sans", sans-serif;
-text-align: center;
-margin: 20px;
+    color: #0000FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+    margin: 20px;
 }
- 
+
+
 /* ==========================
-Main Content Blocks
+   Content
 ========================== */
- 
+
 .TestRule {
-background-color: white;
-color: #000000;
-font-size: 1.2rem;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-left: 6px solid #F59E0B;
-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #F59E0B;
+    border-radius: 8px;
 }
- 
+
 .TestRule2 {
-background-color: white;
-color: #000000;
-font-size: 1.2rem;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-left: 6px solid #0000FF;
-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #0000FF;
+    border-radius: 8px;
 }
- 
+
 .TestRule3 {
-background-color: white;
-color: #000000;
-font-size: 1.2rem;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-left: 6px solid #F59E0B;
-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #F59E0B;
+    border-radius: 8px;
 }
- 
+
 .TestRule4 {
-background-color: white;
-color: #000000;
-font-size: 1.2rem;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-left: 6px solid #0000FF;
-border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #0000FF;
+    border-radius: 8px;
 }
- 
+
+
 /* ==========================
-Paragraph Styling
+   Paragraphs
 ========================== */
- 
+
 p {
-font-family: Inter, sans-serif;
-line-height: 1.6;
-text-align: center;
+    font-family: Inter, sans-serif;
+    line-height: 1.6;
 }
- 
+
+
 /* ==========================
-Footer
+   Headshot
 ========================== */
- 
-.FooterTest {
-background-color: #0000FF;
-color: white;
-text-align: center;
-padding: 20px;
-margin: 20px;
-border-radius: 8px;
+
+.headshot {
+    width: 300px;
+    height: 350px;
+    display: block;
+    margin: 20px auto;
+    border: 3px solid #0000FF;
+    border-radius: 8px;
 }
- 
-footer {
-font-family: Inter, sans-serif;
-font-size: 18px;
+
+
+/* ==========================
+   Footer
+========================== */
+
+.FooterTest {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
 }
