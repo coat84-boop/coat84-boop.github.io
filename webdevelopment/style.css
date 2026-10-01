@@ -156,3 +156,34 @@ p {
     margin: 20px;
     border-radius: 8px;
 }
+
+/* Hero Section */
+
+.hero {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-left: 6px solid #F59E0B; /* That nice amber/gold accent border */
+    border-radius: 8px;
+}
+
+/* This specifically styles the H1 text layout inside the hero box */
+.hero h1 {
+    color:#F4F5F7;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 2.5rem; /* Set this to whatever size your old .h1test used */
+    background-color: #0000FF;
+    margin-top: 0;     /* Keeps spacing tight at the top of the white box */
+    margin-bottom: 15px;
+}
+
+/* This styles the paragraph text inside the hero box */
+.hero p {
+    font-size: 1.2rem; /* The font size from your old .TestRule */
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+}
