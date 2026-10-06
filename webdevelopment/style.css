@@ -165,3 +165,18 @@ p {
     color: white;
     border-radius: 5px;
 }
+
+.about-list {
+    list-style-type: square;
+    font-size: 1.2rem;
+    color: #000000;
+    background-color: #FFFFFF;
+    padding: 20px 20px 20px 50px;
+    margin: 20px;
+    border-left: 6px solid #0000FF;
+    border-radius: 8px;
+}
+
+.about-list li {
+    padding: 5px;
+}
