@@ -50,20 +50,12 @@ body {
     border-radius: 8px;
 }
 
-.h2test {
-    color: #0000FF;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    text-align: center;
-    margin: 20px;
-}
-
 .h3test {
     color: #0000FF;
     font-family: "Plus Jakarta Sans", sans-serif;
     text-align: center;
     margin: 20px;
 }
-
 
 /* ==========================
    Content
@@ -92,31 +84,6 @@ body {
     border-left: 6px solid #0000FF;
     border-radius: 8px;
 }
-
-.TestRule3 {
-    background-color: #FFFFFF;
-    color: #000000;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-}
-
-.TestRule4 {
-    background-color: #FFFFFF;
-    color: #000000;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    text-align: center;
-    padding: 20px;
-    margin: 20px;
-    border-left: 6px solid #0000FF;
-    border-radius: 8px;
-}
-
 
 /* ==========================
    Paragraphs
@@ -186,4 +153,14 @@ p {
     font-size: 1.2rem; /* The font size from your old .TestRule */
     font-family: "Inter", sans-serif;
     margin-bottom: 20px;
+}
+
+.resume-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 15px 0;
+    border: 2px solid #0000FF;
+    background-color: #0000FF;
+    color: white;
+    border-radius: 5px;
 }
