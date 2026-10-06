@@ -164,3 +164,7 @@ p {
     color: white;
     border-radius: 5px;
 }
+
+.resume-container {
+    text-align: center;
+}
