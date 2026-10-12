@@ -1,1 +1,54 @@
 
+
+/* Navigation Bar */
+
+.testheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #F4F5F7;
+}
+
+/* Logo */
+
+.site-logo {
+    width: 80px;
+    height: auto;
+}
+
+/* Navigation Links */
+
+.testheader nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.testheader nav a {
+    color: #0000FF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.testheader nav a:hover {
+    color: #F59E0B;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 600px) {
+    .testheader {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .testheader nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
