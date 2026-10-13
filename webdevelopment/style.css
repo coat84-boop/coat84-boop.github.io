@@ -95,6 +95,13 @@ p {
     margin-bottom: 20px;
 }
 
+.indent {
+   font-family: Inter, sans-serif;
+   line-height:1.6
+   margin-botton: 20px;
+   text-indent: 40px;
+}
+
 
 /* ==========================
    Headshot
