@@ -199,13 +199,18 @@ p {
     padding: 5px;
 }
 
+
 /* Reflection Page - Box Model */
 
 .reflection-box {
-    background-color: #F4F5F7;
+    background-color: #FFFFFF;
+    color: #000000;
     border: 2px solid #0000FF;
     padding: 25px;
     margin: 20px auto;
     max-width: 900px;
     border-radius: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
 }
+
