@@ -228,14 +228,6 @@ p {
 }
 
 /* ==========================
-   Reflection - Paragraph Indent
-========================== */
-
-.reflection-box p:not(:first-of-type) {
-    text-indent: 40px;
-}
-
-/* ==========================
    Reflection - First Line
    Pseudo-Element
 ========================== */
