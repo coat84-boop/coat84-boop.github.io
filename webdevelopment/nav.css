@@ -1,5 +1,4 @@
 
-
 /* Navigation Bar */
 
 .testheader {
@@ -15,12 +14,11 @@
 .site-logo {
     width: 80px;
     height: auto;
-    align-items: left;
 }
 
 /* Navigation Links */
 
-.testheader nav ul {
+.testheader nav > ul {
     display: flex;
     list-style-type: none;
     gap: 25px;
@@ -40,60 +38,13 @@
     color: #F59E0B;
 }
 
-/* Mobile Layout */
-
-@media (max-width: 600px) {
-    .testheader {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .testheader nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-}
-
-
-/* Reflection Page - Box Model */
-
-.reflection-box {
-    background-color: #F4F5F7;
-    border: 2px solid #0000FF;
-    padding: 25px;
-    margin: 20px auto;
-    max-width: 900px;
-    border-radius: 10px;
-}
-
-/* First Paragraph - First Letter Pseudo-Element */
-
-.reflection-box p:first-of-type::first-letter {
-    font-size: 32px;
-    font-weight: bold;
-    color: #0000FF;
-}
-
-/* Remaining Paragraphs - First Line Indentation */
-
-.reflection-box p:not(:first-of-type) {
-    text-indent: 30px;
-}
-
-/* First Line Pseudo-Element */
-
-.reflection-box p:not(:first-of-type)::first-line {
-    font-weight: 500;
-}
-
-
-/* Dropdown Navigation Menu */
+/* Dropdown Menu */
 
 .testheader nav .dropdown {
     position: relative;
 }
 
-/* Hide Dropdown by Default */
+/* Hide Dropdown Menu by Default */
 
 .testheader nav .dropdown-menu {
     display: none;
@@ -109,22 +60,20 @@
     z-index: 1000;
 }
 
-/* Show Dropdown on Hover or Keyboard Focus */
+/* Display Dropdown on Hover or Keyboard Focus */
 
-.testheader nav .dropdown:hover .dropdown-menu,
-.testheader nav .dropdown:focus-within .dropdown-menu {
+.testheader nav .dropdown:hover > .dropdown-menu,
+.testheader nav .dropdown:focus-within > .dropdown-menu {
     display: flex;
     flex-direction: column;
     gap: 0;
 }
 
-/* Dropdown Links */
+/* Dropdown Navigation Links */
 
 .testheader nav .dropdown-menu a {
     display: block;
     padding: 10px 15px;
-    color: #0000FF;
-    text-decoration: none;
     white-space: nowrap;
 }
 
@@ -134,4 +83,26 @@
 .testheader nav .dropdown-menu a:focus-visible {
     background-color: #E2E6EA;
     color: #0000CC;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 600px) {
+
+    .testheader {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .testheader nav > ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .testheader nav .dropdown-menu {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
