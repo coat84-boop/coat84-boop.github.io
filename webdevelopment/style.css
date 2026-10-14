@@ -198,3 +198,14 @@ p {
 .about-list li {
     padding: 5px;
 }
+
+/* Reflection Page - Box Model */
+
+.reflection-box {
+    background-color: #F4F5F7;
+    border: 2px solid #0000FF;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
