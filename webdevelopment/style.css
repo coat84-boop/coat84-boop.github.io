@@ -200,3 +200,49 @@ p {
 }
 
 
+/* ==========================
+   Reflection Page - Box Model
+========================== */
+
+.reflection-box {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #0000FF;
+    border-left: 6px solid #F59E0B;
+    border-radius: 8px;
+    padding: 25px;
+    margin: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* ==========================
+   Reflection - First Letter
+   Pseudo-Element
+========================== */
+
+.reflection-box p:first-of-type::first-letter {
+    color: #0000FF;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* ==========================
+   Reflection - Paragraph Indent
+========================== */
+
+.reflection-box p:not(:first-of-type) {
+    text-indent: 40px;
+}
+
+/* ==========================
+   Reflection - First Line
+   Pseudo-Element
+========================== */
+
+.reflection-box p:not(:first-of-type)::first-line {
+    font-weight: 500;
+}
+
+
+
