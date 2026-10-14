@@ -15,7 +15,7 @@
 .site-logo {
     width: 80px;
     height: auto;
-    aligh-item: left;
+    align-items: left;
 }
 
 /* Navigation Links */
@@ -84,4 +84,54 @@
 
 .reflection-box p:not(:first-of-type)::first-line {
     font-weight: 500;
+}
+
+
+/* Dropdown Navigation Menu */
+
+.testheader nav .dropdown {
+    position: relative;
+}
+
+/* Hide Dropdown by Default */
+
+.testheader nav .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background-color: #F4F5F7;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+}
+
+/* Show Dropdown on Hover or Keyboard Focus */
+
+.testheader nav .dropdown:hover .dropdown-menu,
+.testheader nav .dropdown:focus-within .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Dropdown Links */
+
+.testheader nav .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    color: #0000FF;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Dropdown Link Hover */
+
+.testheader nav .dropdown-menu a:hover,
+.testheader nav .dropdown-menu a:focus-visible {
+    background-color: #E2E6EA;
+    color: #0000CC;
 }
