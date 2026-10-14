@@ -53,3 +53,35 @@
         justify-content: center;
     }
 }
+
+
+/* Reflection Page - Box Model */
+
+.reflection-box {
+    background-color: #F4F5F7;
+    border: 2px solid #0000FF;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+
+/* First Paragraph - First Letter Pseudo-Element */
+
+.reflection-box p:first-of-type::first-letter {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0000FF;
+}
+
+/* Remaining Paragraphs - First Line Indentation */
+
+.reflection-box p:not(:first-of-type) {
+    text-indent: 30px;
+}
+
+/* First Line Pseudo-Element */
+
+.reflection-box p:not(:first-of-type)::first-line {
+    font-weight: 500;
+}
