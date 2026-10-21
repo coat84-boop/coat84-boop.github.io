@@ -126,22 +126,6 @@ p {
     border-radius: 8px;
 }
 
-
-/* ==========================
-   Footer
-========================== */
-
-.FooterTest {
-    background-image: url("images/footer-background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    padding: 35px 20px;
-    color: white;
-    text-align: center;
-}
-
 /* ==========================
       Hero Section 
 ============================*/
