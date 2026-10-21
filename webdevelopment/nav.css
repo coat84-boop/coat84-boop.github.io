@@ -13,7 +13,7 @@
 
 .site-logo {
     width: 300px;
-    height: auto;
+    max-height: 65px;
     max-width: 100%;
     object-fit: contain;
     flex-shrink: 0;
