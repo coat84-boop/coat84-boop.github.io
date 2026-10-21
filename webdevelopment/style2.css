@@ -494,3 +494,229 @@ p {
         padding: 18px;
     }
 }
+
+
+/* ==========================
+   About Me Page
+========================== */
+
+.about-intro {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 50px 25px;
+    border-left: 6px solid #F59E0B;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.about-intro h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(32px, 5vw, 48px);
+    color: #0000FF;
+    margin: 15px 0;
+}
+
+.about-subtitle {
+    font-size: 19px;
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 30px;
+}
+
+.about-intro .headshot {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #0000FF;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ==========================
+   About Content Sections
+========================== */
+
+.about-section {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 45px 35px;
+    border-radius: 8px;
+}
+
+.about-section .intro-grid {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-section .intro-text {
+    text-align: left;
+}
+
+
+/* ==========================
+   Professional Highlights
+========================== */
+
+.philosophy-card .about-list {
+    background-color: transparent;
+    border-left: none;
+    margin: 0;
+    padding: 0 0 0 22px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #334155;
+}
+
+.philosophy-card .about-list li {
+    padding: 8px 0;
+}
+
+
+/* ==========================
+   Academic Aspirations
+========================== */
+
+.academic-card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 35px;
+    background-color: #EEF2FF;
+    border-left: 5px solid #F59E0B;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.academic-card h3 {
+    color: #0000FF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.academic-card p {
+    color: #334155;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+
+/* ==========================
+   Video Resume Section
+========================== */
+
+.resume-video {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 45px 25px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.resume-video h2,
+.about-section h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(28px, 4vw, 38px);
+    color: #0000FF;
+    margin: 15px 0;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.resume-video video {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.resume-container {
+    margin-top: 30px;
+}
+
+.resume-link {
+    display: inline-block;
+    width: auto;
+    padding: 12px 28px;
+    margin: 0;
+    background-color: #0000FF;
+    border: 2px solid #0000FF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.resume-link:hover {
+    background-color: #172554;
+    border-color: #172554;
+}
+
+
+/* ==========================
+   Personal Reflection
+========================== */
+
+.about-section .TestRule2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #EEF2FF;
+    border-left: 5px solid #F59E0B;
+    border-radius: 12px;
+    font-size: 19px;
+    line-height: 1.9;
+    font-style: italic;
+    text-align: left;
+    color: #172554;
+}
+
+
+/* ==========================
+   Mobile Responsiveness
+========================== */
+
+@media (max-width: 600px) {
+
+    .about-intro,
+    .about-section,
+    .resume-video {
+        margin: 10px;
+        padding: 30px 20px;
+    }
+
+    .about-subtitle {
+        font-size: 16px;
+    }
+
+    .about-intro .headshot {
+        width: 220px;
+    }
+
+    .academic-card {
+        padding: 25px 20px;
+    }
+
+    .academic-card p {
+        font-size: 16px;
+    }
+
+    .about-section .TestRule2 {
+        padding: 25px 20px;
+        font-size: 17px;
+    }
+
+    .resume-video video {
+        max-width: 100%;
+    }
+}
