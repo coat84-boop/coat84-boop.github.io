@@ -1068,3 +1068,173 @@ p {
         font-size: 18px;
     }
 }
+
+
+/* ==========================
+   Contact Page
+========================== */
+
+/* Page introduction */
+
+.contact-intro {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 55px 25px;
+    border-left: 6px solid #F59E0B;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-intro h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(32px, 5vw, 48px);
+    color: #0000FF;
+    margin: 15px 0;
+}
+
+.contact-subtitle {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 19px;
+    line-height: 1.8;
+    color: #475569;
+}
+
+
+/* ==========================
+   Contact Sections
+========================== */
+
+.contact-section {
+    background-color: #FFFFFF;
+    margin: 20px;
+    padding: 45px 35px;
+    border-radius: 8px;
+}
+
+.contact-section h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: clamp(28px, 4vw, 38px);
+    color: #0000FF;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+/* ==========================
+   Contact Cards
+========================== */
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    background-color: #EEF2FF;
+    border-left: 5px solid #F59E0B;
+    border-radius: 12px;
+    padding: 35px 30px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+    transition: transform 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+    width: 65px;
+    height: 65px;
+    background-color: #0000FF;
+    border-radius: 50%;
+}
+
+.contact-icon img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.contact-card h3 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 24px;
+    color: #0000FF;
+    margin: 0 0 15px;
+}
+
+.contact-card p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #475569;
+    margin-bottom: 25px;
+}
+
+.contact-link {
+    display: inline-block;
+    max-width: 100%;
+    padding: 12px 18px;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border-radius: 8px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+.contact-link:hover {
+    background-color: #172554;
+}
+
+.contact-link:focus-visible {
+    outline: 3px solid #F59E0B;
+    outline-offset: 3px;
+}
+
+
+/* ==========================
+   Mobile Responsiveness
+========================== */
+
+@media (max-width: 600px) {
+
+    .contact-intro,
+    .contact-section {
+        margin: 10px;
+        padding: 30px 20px;
+    }
+
+    .contact-subtitle {
+        font-size: 16px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .contact-card {
+        padding: 30px 20px;
+    }
+
+    .contact-card h3 {
+        font-size: 21px;
+    }
+
+    .contact-link {
+        font-size: 14px;
+    }
+}
