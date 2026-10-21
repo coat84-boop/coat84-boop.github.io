@@ -1,72 +1,299 @@
-<!DOCTYPE html>
-<html lang="en-US">
 
-<!-- Header Section -->
+<!DOCTYPE html>
+<html lang="en">
+
 <!--
-	Name:Coleman Mallicoat
-	Date:9/17/2026
-	Course:ISLT 7355 - Web Developmetn and Design
-	Description:index.html page
+    Name: Coleman Mallicoat
+    Date: 10/21/2026
+    Course: ISLT 7355 - Web Development and Design
+    Description: Professional Portfolio - Contact
 -->
-	
+
 <head>
-    <title>Contact</title>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style2.css">
-	<link rel="stylesheet" href="nav.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="manifest" href="site.webmanifest">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Professional Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest" href="site.webmanifest">
 </head>
-    
+
 <body>
 
-<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<!-- ==========================
+     Header and Navigation
+========================== -->
+
 <header class="testheader">
 
-	<img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
-	
-<!-- Navigation Bar with Dropdown Menu -->
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
+    <img src="images/logo.png"
+         alt="Portfolio Logo"
+         class="site-logo">
 
-        <!-- Dropdown Navigation -->
-        <li class="dropdown">
-            <a href="projects.html">Projects ▾</a>
+    <nav aria-label="Main navigation">
+        <ul>
 
-            <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
-            </ul>
-        </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
 
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <li>
+                <a href="about.html">About Me</a>
+            </li>
+
+            <li class="dropdown">
+                <a href="projects.html">Projects ▾</a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reflection.html">
+                            Reflection
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="reflection.html">
+                    Reflection
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html"
+                   aria-current="page">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+    </nav>
+
 </header>
-	
-<p style="text-align: center; font-size: 18pt;">This page is for my contact information.</p>    
+
+
+<main>
+
+<!-- ==========================
+     Contact Introduction
+========================== -->
+
+<section class="contact-intro">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            LET'S CONNECT
+        </span>
+
+        <h1>Get in Touch</h1>
+
+        <div class="accent-line"></div>
+
+        <p class="contact-subtitle">
+            Whether you're interested in discussing
+            technology, education, leadership,
+            or professional collaboration,
+            I welcome the opportunity to connect.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Contact Information
+========================== -->
+
+<section class="contact-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            CONTACT INFORMATION
+        </span>
+
+        <h2>Ways to Reach Me</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <div class="contact-grid">
+
+        <!-- Email -->
+
+        <article class="contact-card">
+
+            <div class="contact-icon">
+
+                <img src="images/email.png"
+                     alt="">
+
+            </div>
+
+            <h3>Email</h3>
+
+            <p>
+                Have a question or want to
+                discuss an opportunity?
+                Email is a great way to
+                start a conversation.
+            </p>
+
+            <a href="mailto:contact@example.com"
+               class="contact-link">
+
+                contact@example.com
+
+            </a>
+
+        </article>
+
+
+        <!-- Phone -->
+
+        <article class="contact-card">
+
+            <div class="contact-icon">
+
+                <img src="images/phone.png"
+                     alt="">
+
+            </div>
+
+            <h3>Phone</h3>
+
+            <p>
+                For professional inquiries
+                or conversations that are
+                better handled directly,
+                you can reach me by phone.
+            </p>
+
+            <a href="tel:5551234567"
+               class="contact-link">
+
+                555-123-4567
+
+            </a>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Professional Networking
+========================== -->
+
+<section class="contact-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            PROFESSIONAL CONNECTIONS
+        </span>
+
+        <h2>Let's Build Something Meaningful</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <div class="academic-card">
+
+        <h3>Collaboration Starts with Conversation</h3>
+
+        <p>
+            Throughout my career, I've found
+            that some of the most valuable
+            opportunities begin with a
+            simple conversation.
+        </p>
+
+        <p>
+            I'm particularly interested in
+            connecting with professionals
+            and educators who share an
+            interest in technology leadership,
+            instructional design, cybersecurity,
+            and lifelong learning.
+        </p>
+
+        <p>
+            If our interests align,
+            I'd welcome the opportunity
+            to exchange ideas and
+            learn from one another.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ==========================
+     Footer
+========================== -->
 
 <footer class="FooterTest">
 
     <div class="footer-contact">
 
         <div class="contact-item">
-            <img src="images/phone.png" alt="Phone icon">
+
+            <img src="images/phone.png"
+                 alt="Phone icon">
+
             <span>555-123-4567</span>
+
         </div>
 
         <div class="contact-item">
-            <img src="images/email.png" alt="Email icon">
+
+            <img src="images/email.png"
+                 alt="Email icon">
+
             <a href="mailto:contact@example.com">
                 contact@example.com
             </a>
+
         </div>
 
     </div>
