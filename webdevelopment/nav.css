@@ -12,9 +12,11 @@
 /* Logo */
 
 .site-logo {
-    width: 260px;
-    max-width: 100%;
+    width: 300px;
     height: auto;
+    max-width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
 /* Navigation Links */
