@@ -1,72 +1,315 @@
-<!DOCTYPE html>
 
-<!-- Header Section -->
+<!DOCTYPE html>
+<html lang="en">
+
 <!--
-	Name:Coleman Mallicoat
-	Date:9/17/2026
-	Course:ISLT 7355 - Web Developmetn and Design
-	Description:projects.html page
+    Name: Coleman Mallicoat
+    Date: 10/21/2026
+    Course: ISLT 7355 - Web Development and Design
+    Description: Professional Portfolio - Projects
 -->
 
-<html lang="en-US">
 <head>
-    <title>Projects</title>
     <meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style2.css">
-	<link rel="stylesheet" href="nav.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="manifest" href="site.webmanifest">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Professional Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest" href="site.webmanifest">
 </head>
-    
+
 <body>
 
-<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<!-- ==========================
+     Header and Navigation
+========================== -->
+
 <header class="testheader">
 
-	<img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
-	
-<!-- Navigation Bar with Dropdown Menu -->
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
+    <img src="images/logo.png"
+         alt="Portfolio Logo"
+         class="site-logo">
 
-        <!-- Dropdown Navigation -->
-        <li class="dropdown">
-            <a href="projects.html">Projects ▾</a>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
 
-            <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
-            </ul>
-        </li>
+            <li><a href="about.html">About Me</a></li>
 
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <li class="dropdown">
+                <a href="projects.html"
+                   aria-current="page">
+                    Projects ▾
+                </a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reflection.html">
+                            Reflection
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="reflection.html">
+                    Reflection
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
 </header>
-	
-<p style="text-align: center; font-size: 18pt;">This page is a placeholder until I complete the rest of the pages.</p>    
+
+
+<main>
+
+<!-- ==========================
+     Projects Introduction
+========================== -->
+
+<section class="projects-intro">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            EXPLORE MY WORK
+        </span>
+
+        <h1>Projects & Accomplishments</h1>
+
+        <div class="accent-line"></div>
+
+        <p class="projects-subtitle">
+            A collection of work reflecting my
+            interests in technology, education,
+            leadership, and continuous learning.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Project Showcase
+========================== -->
+
+<section class="projects-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            MY AREAS OF FOCUS
+        </span>
+
+        <h2>Project Showcase</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <div class="projects-grid">
+
+        <!-- Project 1 -->
+
+        <article class="project-card">
+
+            <div class="project-number">01</div>
+
+            <h3>Web Development</h3>
+
+            <p>
+                Exploring HTML, CSS, responsive
+                design, accessibility, and
+                user-centered development through
+                my graduate coursework.
+            </p>
+
+            <p>
+                This professional portfolio is
+                itself an ongoing web development
+                project, demonstrating the skills
+                and techniques I've learned.
+            </p>
+
+            <span class="project-tag">
+                HTML & CSS
+            </span>
+
+        </article>
+
+
+        <!-- Project 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">02</div>
+
+            <h3>Instructional Design</h3>
+
+            <p>
+                Designing learning experiences
+                that help people understand
+                complex technical concepts.
+            </p>
+
+            <p>
+                My academic interests include
+                instructional media, learning
+                evaluation, and approaches
+                that make technology education
+                more accessible.
+            </p>
+
+            <span class="project-tag">
+                Education & Learning
+            </span>
+
+        </article>
+
+
+        <!-- Project 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">03</div>
+
+            <h3>IT Leadership</h3>
+
+            <p>
+                Applying technical expertise
+                and leadership principles to
+                improve technology services
+                and organizational processes.
+            </p>
+
+            <p>
+                My professional experience
+                includes systems administration,
+                technical instruction,
+                cybersecurity, and
+                technology leadership.
+            </p>
+
+            <span class="project-tag">
+                Technology & Leadership
+            </span>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Future Projects
+========================== -->
+
+<section class="projects-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            CONTINUING TO GROW
+        </span>
+
+        <h2>What's Next?</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <div class="academic-card">
+
+        <h3>Learning Through Experience</h3>
+
+        <p>
+            This portfolio will continue to
+            evolve as I complete additional
+            coursework, develop new technical
+            skills, and explore opportunities
+            to combine technology with
+            effective instructional design.
+        </p>
+
+        <p>
+            Future updates will include
+            project examples, reflections,
+            and demonstrations of my work
+            in web development and education.
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ==========================
+     Footer
+========================== -->
 
 <footer class="FooterTest">
 
     <div class="footer-contact">
 
         <div class="contact-item">
-            <img src="images/phone.png" alt="Phone icon">
+
+            <img src="images/phone.png"
+                 alt="Phone icon">
+
             <span>555-123-4567</span>
+
         </div>
 
         <div class="contact-item">
-            <img src="images/email.png" alt="Email icon">
+
+            <img src="images/email.png"
+                 alt="Email icon">
+
             <a href="mailto:contact@example.com">
                 contact@example.com
             </a>
+
         </div>
 
     </div>
