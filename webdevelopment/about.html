@@ -1,132 +1,406 @@
-<!DOCTYPE html>
 
+<!DOCTYPE html>
 <html lang="en">
- 
-<!-- Header Section -->
+
 <!--
-Name:Coleman Mallicoat
-	Date:10/20/2026
-	Course:ISLT 7355 - Web Developmetn and Design
-	Description:about.html adding images and video
+    Name: Coleman Mallicoat
+    Date: 10/21/2026
+    Course: ISLT 7355 - Web Development and Design
+    Description: Professional Portfolio - About Me
 -->
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-	<link rel="stylesheet" href="style2.css">
-	<link rel="stylesheet" href="nav.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="manifest" href="site.webmanifest">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Professional Portfolio</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest" href="site.webmanifest">
 </head>
 
 <body>
 
-<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<!-- ==========================
+     Header and Navigation
+========================== -->
+
 <header class="testheader">
 
-	<img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
-	
-<!-- Navigation Bar with Dropdown Menu -->
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
+    <img src="images/logo.png"
+         alt="Portfolio Logo"
+         class="site-logo">
 
-        <!-- Dropdown Navigation -->
-        <li class="dropdown">
-            <a href="projects.html">Projects ▾</a>
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
 
-            <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
-            </ul>
-        </li>
+            <li>
+                <a href="about.html" aria-current="page">
+                    About Me
+                </a>
+            </li>
 
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <li class="dropdown">
+                <a href="projects.html">Projects ▾</a>
+
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reflection.html">
+                            Reflection
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="reflection.html">
+                    Reflection
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </nav>
+
 </header>
+
 
 <main>
 
-<!--H1 will likely stay similar to what it is now, as it's like its landing page-->
-<h1 class="h1test">About Me</h1>
+<!-- ==========================
+     Page Introduction
+========================== -->
 
-<!-- Image was interesting to me, as the process was similar in formatting the picture. Create a class associated with the .png file, add the class parameters to the class in the "style.css", and once it renders, the photo is cleanly where I wanted it to be -->	
-<img class="headshot" src="images/Headshot.png" alt="Headshot">
+<section class="about-intro">
 
+    <div class="intro-heading">
 
-<section class="resume-video">
+        <span class="intro-label">
+            GET TO KNOW ME
+        </span>
 
-    <h2 class="h1test">My Video Resume</h2>
+        <h1>About Me</h1>
 
-    <video controls width="400"
-           aria-label="Video resume describing my professional background">
-        <source src="videos/video.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <div class="accent-line"></div>
+
+        <p class="about-subtitle">
+            Technology Leader. Educator. Lifelong Learner.
+        </p>
+
+    </div>
+
+    <img class="headshot"
+         src="images/Headshot.png"
+         alt="Professional headshot of Coleman Mallicoat">
 
 </section>
 
-	
-<!--H3 will outline the specific section this page covers.-->
-<h3 class="h3test">Professional Background</h3>
 
-<ul class="about-list">
-    <li>Director of Digital Workspace and Technology Services</li>
-    <li>MS in Cybersecurity and Information Assurance</li>
-    <li>MBA in Information Technology Management</li>
-    <li>Former Information Technology Instructor</li>
-    <li>13.5 years of service in the U.S. Army</li>
-</ul>
+<!-- ==========================
+     Professional Background
+========================== -->
 
-<!--I actually created individual classes for each "p" element. I felt that was currently the best way to show that you can have custom classes for each element if you wanted to.-->
-<p class="TestRule">My name is Coleman Mallicoat, and I currently serve as the Director of Digital Workspace and Technology Services for the Hospital Industry Data Institute. 
+<section class="about-section">
 
-I hold an MS in Cybersecurity and Information Assurance and an MBA in IT Management, both from Western Governors University.
+    <div class="intro-heading">
 
-Prior to holding this position, I spent 7 years total in Academia (technical college) as an Instructor of Satellite Communications and Information Technology.
+        <span class="intro-label">
+            MY JOURNEY
+        </span>
 
-I served 13.5 years in the U.S. Army before being medically retired in January 2021. I accomplished many things during my service, and after, though I do not wish to display them on this forum. Some I'm not allowed to speak of, others I simply wish not to.
+        <h2>Professional Background</h2>
 
-I've accomplished much in my academic life, my professional life, and my amazing personal life. That being said, this course and this degree program are hopefully a pathway into permanent residence in academia, preferably at Mizzou. I wish to seek and complete my PhD in ISLT, while being an assistant professor on tenure track.</p>
+        <div class="accent-line"></div>
 
-<div class="resume-container">
-<a href="webcontent/resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-link">Download My Resume</a>
-</div>
-	
-<blockquote class="TestRule2">All too often we fall into this trap of; "The circumstances I've experienced are unusual, therefore the emotions and struggles they've produced in me are fundamentally inaccessible to anyone who hasn't experiencd those cicrumstances". That isn't truth, that is our mind telling us we are terminally unique. We aren't, the human experience is collective, even if the circumstances change.</blockquote>
+    </div>
+
+    <div class="intro-grid">
+
+        <!-- Biography -->
+
+        <div class="intro-text">
+
+            <h3>Leadership, Technology & Education</h3>
+
+            <p>
+                My name is Coleman Mallicoat, and I currently
+                serve as the Director of Digital Workspace
+                and Technology Services for the Hospital
+                Industry Data Institute.
+            </p>
+
+            <p>
+                I hold a Master of Science in Cybersecurity
+                and Information Assurance and an MBA in
+                Information Technology Management, both
+                from Western Governors University.
+            </p>
+
+            <p>
+                Before my current position, I spent seven
+                years in technical college academia as an
+                instructor of Satellite Communications
+                and Information Technology.
+            </p>
+
+            <p>
+                I also served 13.5 years in the United
+                States Army before being medically retired
+                in January 2021. My military career
+                shaped my approach to leadership,
+                responsibility, and professional growth.
+            </p>
+
+        </div>
+
+
+        <!-- Professional Highlights -->
+
+        <div class="philosophy-card">
+
+            <h3>Professional Highlights</h3>
+
+            <ul class="about-list">
+
+                <li>
+                    Director of Digital Workspace
+                    and Technology Services
+                </li>
+
+                <li>
+                    MS in Cybersecurity and
+                    Information Assurance
+                </li>
+
+                <li>
+                    MBA in Information Technology
+                    Management
+                </li>
+
+                <li>
+                    Former Information Technology
+                    Instructor
+                </li>
+
+                <li>
+                    13.5 years of service in
+                    the U.S. Army
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Academic Aspirations
+========================== -->
+
+<section class="about-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            LOOKING AHEAD
+        </span>
+
+        <h2>Academic Aspirations</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <div class="academic-card">
+
+        <h3>My Next Chapter</h3>
+
+        <p>
+            I've accomplished much throughout my
+            academic, professional, and personal life,
+            but I believe there is still much more
+            to learn and contribute.
+        </p>
+
+        <p>
+            My current graduate studies represent
+            another step toward my long-term goal
+            of returning to academia permanently.
+        </p>
+
+        <p>
+            I hope to pursue and complete a PhD
+            in Information Science and Learning
+            Technologies at the University of
+            Missouri, with the goal of becoming
+            a tenure-track assistant professor.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Video Resume
+========================== -->
+
+<section class="resume-video">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            BEYOND THE RESUME
+        </span>
+
+        <h2>My Video Resume</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <p class="section-description">
+        Learn more about my professional experience,
+        background, and career aspirations.
+    </p>
+
+    <video controls
+           preload="metadata"
+           aria-label="Video resume describing my professional background">
+
+        <source src="videos/video.mp4"
+                type="video/mp4">
+
+        Your browser does not support the video tag.
+
+    </video>
+
+    <div class="resume-container">
+
+        <a href="webcontent/resume.pdf"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="resume-link">
+
+            View My Resume &rarr;
+
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================
+     Personal Reflection
+========================== -->
+
+<section class="about-section">
+
+    <div class="intro-heading">
+
+        <span class="intro-label">
+            A PERSONAL REFLECTION
+        </span>
+
+        <h2>The Human Experience</h2>
+
+        <div class="accent-line"></div>
+
+    </div>
+
+    <blockquote class="TestRule2">
+
+        All too often we fall into the trap of
+        believing that because our circumstances
+        are unusual, the emotions and struggles
+        they produce must be inaccessible to
+        anyone who hasn't experienced them.
+
+        But that isn't the truth. It's our minds
+        telling us we're terminally unique.
+
+        We aren't. The human experience is
+        collective, even when the circumstances
+        change.
+
+    </blockquote>
+
+</section>
 
 </main>
-	
-<!--Footer is kind of self explanatory. In the future this will likely have links to other parts of the page, or possibly external links to LinkedIn, or something like that-->
+
+
+<!-- ==========================
+     Footer
+========================== -->
+
 <footer class="FooterTest">
 
     <div class="footer-contact">
 
         <div class="contact-item">
-            <img src="images/phone.png" alt="Phone icon">
+
+            <img src="images/phone.png"
+                 alt="Phone icon">
+
             <span>555-123-4567</span>
+
         </div>
 
         <div class="contact-item">
-            <img src="images/email.png" alt="Email icon">
+
+            <img src="images/email.png"
+                 alt="Email icon">
+
             <a href="mailto:contact@example.com">
                 contact@example.com
             </a>
+
         </div>
 
     </div>
 
     <p>&copy; 2026 Coleman Mallicoat</p>
 
-</footer>   
+</footer>
 
 </body>
-
 </html>
