@@ -240,43 +240,25 @@ p {
 ========================== */
 
 .FooterTest {
-    background-image: url("images/footer-background.jpg");
+    background-image: url("images/footer-background.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 
-    padding: 30px 20px;
-    text-align: center;
-    color: black;
-}
+    min-height: 180px;
+    padding: 40px 20px;
 
-.footer-contact {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
 
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.contact-item img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.contact-item a {
     color: white;
-    text-decoration: none;
+    text-align: center;
 }
 
-.contact-item a:hover {
-    text-decoration: underline;
+.FooterTest a {
+    color: white;
 }
 
 /* Mobile responsiveness */
