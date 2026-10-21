@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+ 
+<!-- Header Section -->
+<!--
+	Name:Coleman Mallicoat
+	Date:10/21/2026
+	Course:IS_LT 7355 Web Development and Design
+	Description:Professional Portfolion
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="nav.css">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+	<link rel="manifest" href="site.webmanifest">
+</head>
+
+<body>
+
+<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<header class="testheader">
+
+	<img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
+	
+<!-- Navigation Bar with Dropdown Menu -->
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+
+        <!-- Dropdown Navigation -->
+        <li class="dropdown">
+            <a href="projects.html">Projects ▾</a>
+
+            <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </li>
+
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <img
+            src="images/hero.png"
+            alt="People First. Technology With a Purpose. A team collaborating using technology."
+            class="hero-image"
+        >
+
+        <h1 class="visually-hidden">
+            People First. Technology With a Purpose.
+        </h1>
+
+        <div class="hero-content">
+
+            <p>
+                Welcome to my Professional Portfolio. Here you can
+                learn more about my professional background, career
+                accomplishments, and future aspirations.
+
+                This website also demonstrates the HTML, CSS, and
+                responsive design principles I've learned throughout
+                my web development course.
+            </p>
+
+            <a href="about.html" class="cta-button">
+                Learn More
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+<!--H2 is just another headerd-->
+<!--h2 class="h1test">H2 is specified in the rubric, but not the instructions, it specifies H3 in the instructions, effectively skipping H2, I'm adding it due to the rubric calling for it.</h2-->
+	
+<!--H3 will outline the specific section this page covers.-->
+<!--h3 class="h3test">A Little About Me</h3-->
+	
+<!--Image was interesting to me, as the process was similar in formatting the picture. Create a class associated with the .png file, add the class parameters to the class in the "style.css", and once it renders, the photo is cleanly where I wanted it to be -->	
+<!--img class="headshot" src="images/Headshot.png" alt="Headshot"-->
+
+<!--I actually created individual classes for each "p" element. I felt that was currently the best way to show that you can have custom classes for each element if you wanted to.-->
+<!--p class="TestRule">Welcome to my website! I'm very excited that you visited. As this page continues to be built, you will see new features, new colors and text combinations, and even some advanced stuff!! Thanks for stopping by!</p-->
+
+<blockquote class="TestRule2">Only when the pain of staying the same becomes greater then the pain of change, will we do so.</blockquote>
+
+<!-- Footer Section -->
+<footer class="FooterTest">
+
+    <div class="footer-contact">
+
+        <div class="contact-item">
+            <img src="images/phone.png" alt="Phone icon">
+            <span>555-123-4567</span>
+        </div>
+
+        <div class="contact-item">
+            <img src="images/email.png" alt="Email icon">
+            <a href="mailto:contact@example.com">
+                contact@example.com
+            </a>
+        </div>
+
+    </div>
+
+    <p>&copy; 2026 Coleman Mallicoat</p>
+
+</footer>
+	
+</body>
+</html>
