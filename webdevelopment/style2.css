@@ -1,3 +1,5 @@
+```
+
 
 /* ==========================
    Global Styles
@@ -19,32 +21,6 @@ p {
     line-height: 1.6;
     margin-bottom: 20px;
 }
-
-
-/* ==========================
-   Navigation
-========================== */
-
-.testheader {
-    background-color: #0000FF;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 8px;
-}
-
-.testheader a {
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 600;
-}
-
-.testheader a:hover {
-    color: #F59E0B;
-}
-
-/* Navigation layout and dropdown
-   styling are maintained in nav.css */
 
 
 /* ==========================
@@ -295,245 +271,6 @@ p {
 
 
 /* ==========================
-   About Me Page
-========================== */
-
-.about-list {
-    list-style-type: square;
-    font-size: 1.2rem;
-    color: #000000;
-    background-color: #FFFFFF;
-    padding: 20px 20px 20px 50px;
-    margin: 20px;
-    border-left: 6px solid #0000FF;
-    border-radius: 8px;
-}
-
-.about-list li {
-    padding: 5px;
-}
-
-.resume-link {
-    display: block;
-    width: fit-content;
-    padding: 10px 20px;
-    margin: 15px auto;
-    border: 2px solid #0000FF;
-    background-color: #0000FF;
-    color: #FFFFFF;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.resume-link:hover {
-    background-color: #172554;
-}
-
-
-/* ==========================
-   Reflection Page
-========================== */
-
-.reflection-box {
-    background-color: #FFFFFF;
-    color: #000000;
-    border: 2px solid #0000FF;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-    padding: 25px;
-    margin: 20px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-/* First-letter pseudo-element */
-
-.reflection-box p:first-of-type::first-letter {
-    color: #0000FF;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-/* First-line pseudo-element */
-
-.reflection-box p:not(:first-of-type)::first-line {
-    font-weight: 500;
-}
-
-
-/* ==========================
-   Video
-========================== */
-
-.resume-video {
-    text-align: center;
-    margin: 30px auto;
-}
-
-.resume-video video {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-}
-
-
-/* ==========================
-   Footer
-========================== */
-
-.FooterTest {
-    background-image: url("images/footer-background.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    min-height: 180px;
-    padding: 40px 20px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    color: #FFFFFF;
-    text-align: center;
-}
-
-.footer-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-}
-
-.contact-item {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.contact-item img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-}
-
-.contact-item a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.contact-item a:hover {
-    text-decoration: underline;
-}
-
-
-/* ==========================
-   Mobile Responsiveness
-========================== */
-
-@media (max-width: 600px) {
-
-    /* Hero */
-
-    .hero {
-        margin: 10px;
-    }
-
-    .hero-content {
-        padding: 35px 20px;
-    }
-
-    /* Introduction */
-
-    .intro-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .intro-label {
-        font-size: 12px;
-        letter-spacing: 2px;
-    }
-
-    .intro-text h3 {
-        font-size: 21px;
-    }
-
-    .intro-text p {
-        font-size: 16px;
-    }
-
-    /* Philosophy card */
-
-    .philosophy-card {
-        padding: 25px;
-    }
-
-    .philosophy-quote {
-        font-size: 21px;
-    }
-
-    /* Footer */
-
-    .footer-contact {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    /* General content */
-
-    .TestRule,
-    .TestRule2,
-    .reflection-box {
-        margin: 10px;
-        padding: 18px;
-    }
-}
-
-
-/* ==========================
-   About Me Page
-========================== */
-
-.about-intro {
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 50px 25px;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.about-intro h1 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: clamp(32px, 5vw, 48px);
-    color: #0000FF;
-    margin: 15px 0;
-}
-
-.about-subtitle {
-    font-size: 19px;
-    font-weight: 500;
-    color: #475569;
-    margin-bottom: 30px;
-}
-
-.about-intro .headshot {
-    width: 280px;
-    max-width: 100%;
-    height: auto;
-    border: 4px solid #0000FF;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
-}
-
-
-/* ==========================
    About Content Sections
 ========================== */
 
@@ -688,20 +425,12 @@ p {
 
 @media (max-width: 600px) {
 
-    .about-intro,
     .about-section,
     .resume-video {
         margin: 10px;
         padding: 30px 20px;
     }
 
-    .about-subtitle {
-        font-size: 16px;
-    }
-
-    .about-intro .headshot {
-        width: 220px;
-    }
 
     .academic-card {
         padding: 25px 20px;
@@ -719,37 +448,6 @@ p {
     .resume-video video {
         max-width: 100%;
     }
-}
-
-
-/* ==========================
-   Projects Page
-========================== */
-
-/* Page introduction */
-
-.projects-intro {
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 55px 25px;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.projects-intro h1 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: clamp(32px, 5vw, 48px);
-    color: #0000FF;
-    margin: 15px 0;
-}
-
-.projects-subtitle {
-    max-width: 750px;
-    margin: 0 auto;
-    font-size: 19px;
-    line-height: 1.8;
-    color: #475569;
 }
 
 
@@ -855,7 +553,6 @@ p {
 
 @media (max-width: 600px) {
 
-    .projects-intro,
     .projects-section {
         margin: 10px;
         padding: 30px 20px;
@@ -866,9 +563,6 @@ p {
         gap: 20px;
     }
 
-    .projects-subtitle {
-        font-size: 16px;
-    }
 
     .project-card {
         padding: 25px;
@@ -877,37 +571,6 @@ p {
     .project-card h3 {
         font-size: 20px;
     }
-}
-
-
-/* ==========================
-   Reflections Page
-========================== */
-
-/* Page introduction */
-
-.reflection-intro {
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 55px 25px;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.reflection-intro h1 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: clamp(32px, 5vw, 48px);
-    color: #0000FF;
-    margin: 15px 0;
-}
-
-.reflection-subtitle {
-    max-width: 750px;
-    margin: 0 auto;
-    font-size: 19px;
-    line-height: 1.8;
-    color: #475569;
 }
 
 
@@ -1032,15 +695,11 @@ p {
 
 @media (max-width: 600px) {
 
-    .reflection-intro,
     .reflection-section {
         margin: 10px;
         padding: 30px 20px;
     }
 
-    .reflection-subtitle {
-        font-size: 16px;
-    }
 
     .reflection-grid {
         grid-template-columns: 1fr;
@@ -1067,37 +726,6 @@ p {
     .reflection-highlight p {
         font-size: 18px;
     }
-}
-
-
-/* ==========================
-   Contact Page
-========================== */
-
-/* Page introduction */
-
-.contact-intro {
-    background-color: #FFFFFF;
-    margin: 20px;
-    padding: 55px 25px;
-    border-left: 6px solid #F59E0B;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.contact-intro h1 {
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: clamp(32px, 5vw, 48px);
-    color: #0000FF;
-    margin: 15px 0;
-}
-
-.contact-subtitle {
-    max-width: 750px;
-    margin: 0 auto;
-    font-size: 19px;
-    line-height: 1.8;
-    color: #475569;
 }
 
 
@@ -1211,15 +839,11 @@ p {
 
 @media (max-width: 600px) {
 
-    .contact-intro,
     .contact-section {
         margin: 10px;
         padding: 30px 20px;
     }
 
-    .contact-subtitle {
-        font-size: 16px;
-    }
 
     .contact-grid {
         grid-template-columns: 1fr;
@@ -1310,3 +934,4 @@ p {
     border-radius: 12px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
+```
