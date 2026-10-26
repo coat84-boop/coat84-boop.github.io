@@ -1006,7 +1006,13 @@ p {
         display: none !important;
     }
 
-    /* Show the name */
+    .about-print p,
+    .about-print li {
+    font-size: 9pt !important;
+    line-height: 1.2;
+}
+
+      /* Show the name */
     .print-name {
         display: block !important;
         font-size: 12pt;
