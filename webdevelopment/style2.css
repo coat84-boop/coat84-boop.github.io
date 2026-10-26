@@ -1083,3 +1083,105 @@ p {
 .about-print .footer-contact img {
     display: none !important;
 }
+
+
+/* ==========================
+   Contact Form Styling
+========================== */
+
+.contact-form-section {
+    max-width: 750px;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label,
+.form-options legend {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* Text Inputs, Dropdown and Textarea */
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+/* Selection Buttons */
+
+.form-options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 6px;
+}
+
+.form-options label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/* Submit Button */
+
+.form-submit {
+    background-color: #0000FF;
+    color: #FFFFFF;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #F59E0B;
+    color: #000000;
+}
+
+/* ==========================
+   Mobile Contact Form
+========================== */
+
+@media (max-width: 600px) {
+
+    .contact-form-section {
+        margin: 30px 15px;
+        padding: 15px;
+    }
+
+    .contact-form {
+        gap: 15px;
+    }
+
+}
