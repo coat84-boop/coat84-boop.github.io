@@ -998,59 +998,74 @@ p {
         margin: 1in;
     }
 
-    /* Hide everything by default */
-    body * {
-        visibility: hidden;
-    }
-
-    /* Show only the About Me content */
-    .about-print,
-    .about-print * {
-        visibility: visible;
-    }
-
-    /* Position printable content */
-    .about-print {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    /* Printed text formatting */
-    .about-print,
-    .about-print * {
-        color: black !important;
-        font-family: Georgia, "Times New Roman", serif !important;
-        background: transparent !important;
-    }
-
-    /* Name */
-    .about-print h1 {
-        font-size: 20pt;
-        margin-bottom: 12px;
-    }
-
-    /* Personal description */
-    .about-print p {
-        font-size: 11pt;
-        line-height: 1.4;
-        margin-bottom: 10px;
-    }
-
-    /* Education list */
-    .about-print ul,
-    .about-print ol {
-        font-size: 11pt;
-        line-height: 1.4;
-        margin-bottom: 12px;
-    }
-
-    /* Remove images and icons */
-    .about-print img,
-    .about-print svg,
-    .about-print video {
+    /* Hide sections not needed for printing */
+    .testheader,
+    .page-banner,
+    .resume-video,
+    .TestRule2 {
         display: none !important;
     }
 
+    /* Show the name */
+    .print-name {
+        display: block !important;
+        font-size: 20pt;
+        margin: 0 0 12px 0;
+    }
+
+    /* Remove images, icons, and decorations */
+    img,
+    svg,
+    video,
+    .accent-line,
+    .intro-label {
+        display: none !important;
+    }
+
+    /* Set all printed text to black and serif */
+    body,
+    body * {
+        color: black !important;
+        font-family: Georgia, "Times New Roman", serif !important;
+        background: transparent !important;
+        box-shadow: none !important;
+    }
+
+    /* Remove webpage layout constraints */
+    .about-print,
+    .about-section,
+    .intro-grid,
+    .intro-text,
+    .philosophy-card,
+    .academic-card,
+    .FooterTest {
+        display: block !important;
+        position: static !important;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        border: none !important;
+    }
+
+    /* Text spacing */
+    h1, h2, h3 {
+        margin: 0 0 8px 0;
+    }
+
+    p, li {
+        font-size: 10pt;
+        line-height: 1.3;
+        margin-bottom: 6px;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin: 8px 0;
+    }
+
+    /* Footer */
+    .FooterTest {
+        margin-top: 15px !important;
+    }
 }
