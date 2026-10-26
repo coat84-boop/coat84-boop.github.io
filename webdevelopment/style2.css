@@ -1069,3 +1069,11 @@ p {
         margin-top: 15px !important;
     }
 }
+
+.no-print {
+    display: none !important;
+}
+
+.about-print .footer-contact img {
+    display: none !important;
+}
