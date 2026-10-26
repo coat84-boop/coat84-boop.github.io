@@ -1009,7 +1009,7 @@ p {
     /* Show the name */
     .print-name {
         display: block !important;
-        font-size: 20pt;
+        font-size: 12pt;
         margin: 0 0 12px 0;
     }
 
