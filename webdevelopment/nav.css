@@ -177,6 +177,17 @@
     color: #F59E0B;
 }
 
+/* ==========================
+   Hamburger Menu
+========================== */
+
+.hamburger {
+    display: none;
+    color: #FFFFFF;
+    font-size: 32px;
+    line-height: 1;
+}
+
 
 /* ==========================
    Mobile Navigation
