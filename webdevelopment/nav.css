@@ -220,12 +220,19 @@
    Mobile Navigation
 ========================== */
 
+
+/* ==========================
+   Mobile Navigation
+========================== */
+
 @media (max-width: 600px) {
 
     .testheader {
         flex-direction: row;
+        flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
+        gap: 15px;
         padding: 20px 15px;
     }
 
@@ -234,20 +241,77 @@
         max-height: 55px;
     }
 
-    .testheader nav {
-        display: none;
-    }
+    /* Show hamburger icon */
 
     .testheader .hamburger {
         display: block;
         position: relative;
         z-index: 2;
-        color: #FFFFFF;
-        font-size: 32px;
     }
+
+    /* Hide navigation until checkbox is checked */
+
+    .testheader nav {
+        display: none;
+        width: 100%;
+        flex-basis: 100%;
+    }
+
+    /* Show navigation when hamburger is activated */
+
+    .testheader .menu-toggle:checked ~ nav {
+        display: block;
+    }
+
+    /* Stack navigation links vertically */
+
+    .testheader nav > ul {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+
+    .testheader nav > ul > li {
+        width: 100%;
+    }
+
+    .testheader nav > ul > li > a {
+        display: block;
+        padding: 12px 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.15);
+    }
+
+    /* Keep Projects submenu hidden initially */
 
     .testheader nav .dropdown-menu {
         display: none;
+        position: static;
+        transform: none;
+        min-width: 0;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    /* Open Projects submenu on focus */
+
+    .testheader nav .dropdown:focus-within > .dropdown-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Prevent hover from opening submenu on mobile */
+
+    .testheader nav .dropdown:hover:not(:focus-within) > .dropdown-menu {
+        display: none;
+    }
+
+    /* Highlight toggle for keyboard users */
+
+    .menu-toggle:focus-visible + .hamburger {
+        outline: 2px solid #F59E0B;
+        outline-offset: 5px;
     }
 }
+
 
