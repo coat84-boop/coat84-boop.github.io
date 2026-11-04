@@ -213,13 +213,3 @@
     }
 }
 
-/* ==========================
-   Hamburger Menu
-========================== */
-
-.hamburger {
-    display: block;
-    color: #000000;
-    font-size: 32px;
-    line-height: 1;
-}
