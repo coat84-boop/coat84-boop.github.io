@@ -1241,20 +1241,3 @@ p {
 
 }
 
-/* About Me - CSS Grid Layout */
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 300px 1fr;
-    gap: 40px;
-    align-items: start;
-}
-
-/* Responsive layout for mobile devices */
-
-@media (max-width: 600px) {
-    .about-grid {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-}
