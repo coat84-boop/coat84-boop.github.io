@@ -48,6 +48,7 @@
      Header and Navigation
 ========================== -->
 
+<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
 <header class="testheader">
 
     <img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
@@ -60,49 +61,28 @@
     &#9776;
 </label>
 
+    <!-- Navigation Bar with Dropdown Menu -->
     <nav aria-label="Main navigation">
-        <ul>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
 
-            <li>
-                <a href="index.html">Home</a>
-            </li>
+        <!-- Dropdown Navigation -->
+        <li class="dropdown">
+            <a href="projects.html">Projects ▾</a>
 
-            <li>
-                <a href="about.html">About Me</a>
-            </li>
+            <ul class="dropdown-menu">
+                <li><a href="projects.html">All Projects</a></li>
+                <li><a href="reflection.html">Reflection</a></li>
+            </ul>
+        </li>
 
-            <li class="dropdown">
-                <a href="projects.html">Projects ▾</a>
-
-                <ul class="dropdown-menu">
-                    <li>
-                        <a href="projects.html">
-                            All Projects
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="reflection.html">
-                            Reflection
-                        </a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="reflection.html"
-                   aria-current="page">
-                    Reflection
-                </a>
-            </li>
-
-            <li>
-                <a href="contact.html">Contact</a>
-            </li>
-
-        </ul>
-    </nav>
-
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+        
+</nav>
+    
 </header>
 
 
