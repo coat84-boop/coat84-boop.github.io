@@ -1241,3 +1241,50 @@ p {
 
 }
 
+
+/* ==========================
+   Project Artifacts
+   Coleman Mallicoat
+   November 11, 2026
+   Responsive artifact styling
+========================== */
+
+.project-artifact {
+    margin: 15px 0 25px;
+}
+
+.project-artifact img,
+.project-artifact video {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project-artifact figcaption {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #475569;
+    line-height: 1.5;
+}
+
+/* Tablet layout */
+
+@media (max-width: 900px) {
+    .project-artifact {
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile layout */
+
+@media (max-width: 600px) {
+    .project-artifact figcaption {
+        font-size: 13px;
+    }
+
+    .project-card {
+        font-size: 15px;
+    }
+}
+
