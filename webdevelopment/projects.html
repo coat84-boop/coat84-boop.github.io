@@ -4,61 +4,131 @@
 
 <!--
     Name: Coleman Mallicoat
-    Date: 11/4/2026
+    Date: 11/11/2026
     Course: ISLT 7355 - Web Development and Design
-    Description: Professional Portfolio - Projects
+    Description: Responsive professional portfolio projects page
+    featuring web development, instructional design,
+    and IT leadership competencies.
 -->
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
-	<link rel="stylesheet" href="style2.css">
-	<link rel="stylesheet" href="nav.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="manifest" href="site.webmanifest">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Coleman Mallicoat</title>
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest" href="site.webmanifest">
 </head>
 
 <body>
 
-<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<!-- ==========================
+     Navigation Header
+========================== -->
+
 <header class="testheader">
 
-    <img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
+    <img src="images/logo.png"
+         alt="Coleman Mallicoat Portfolio Logo"
+         class="site-logo">
 
-<!-- Mobile Menu Toggle -->
-<input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <!-- Mobile Menu Toggle -->
 
-<label for="menu-toggle" class="hamburger">
-    <span class="visually-hidden">Toggle navigation menu</span>
-    &#9776;
-</label>
+    <input type="checkbox"
+           id="menu-toggle"
+           class="menu-toggle">
 
-    <!-- Navigation Bar with Dropdown Menu -->
+    <label for="menu-toggle" class="hamburger">
+        <span class="visually-hidden">
+            Toggle navigation menu
+        </span>
+        &#9776;
+    </label>
+
+    <!-- Navigation Bar -->
+
     <nav aria-label="Main navigation">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
 
-        <!-- Dropdown Navigation -->
-        <li class="dropdown">
-            <a href="projects.html">Projects ▾</a>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
 
-            <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
-            </ul>
-        </li>
+            <li>
+                <a href="about.html">About Me</a>
+            </li>
 
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-        
-</nav>
-    
+            <!-- Dropdown with Anchor Links -->
+
+            <li class="dropdown">
+
+                <a href="projects.html"
+                   aria-current="page">
+                    Projects &#9662;
+                </a>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#web-development">
+                            Web Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#instructional-design">
+                            Instructional Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#it-leadership">
+                            IT Leadership
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
+            <li>
+                <a href="reflection.html">Reflection</a>
+            </li>
+
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
 </header>
 
 
@@ -68,14 +138,17 @@
      Projects Image Banner
 ========================== -->
 
-<section class="page-banner">
+<section class="page-banner"
+         aria-labelledby="projects-title">
 
     <img src="images/projects-banner.png"
          alt="Modern technology workspace representing development and innovation">
 
     <div class="page-banner-content">
 
-        <h1>Ideas Into Action</h1>
+        <h1 id="projects-title">
+            Ideas Into Action
+        </h1>
 
         <p>
             Technology. Education. Innovation.
@@ -88,9 +161,11 @@
 
 <!-- ==========================
      Project Showcase
+     Responsive CSS Grid Layout
 ========================== -->
 
-<section class="projects-section">
+<section class="projects-section"
+         aria-labelledby="showcase-title">
 
     <div class="intro-heading">
 
@@ -98,21 +173,44 @@
             MY AREAS OF FOCUS
         </span>
 
-        <h2>Project Showcase</h2>
+        <h2 id="showcase-title">
+            Project Showcase
+        </h2>
 
         <div class="accent-line"></div>
 
     </div>
 
+    <!-- Responsive Project Grid -->
+
     <div class="projects-grid">
 
-        <!-- Project 1 -->
+        <!-- ==========================
+             Project 1: Web Development
+        ========================== -->
 
-        <article class="project-card">
+        <article class="project-card"
+                 id="web-development">
 
             <div class="project-number">01</div>
 
             <h3>Web Development</h3>
+
+            <!-- Project Artifact -->
+
+            <figure class="project-artifact">
+
+                <img src="images/portfolio-screenshot.png"
+                     alt="Screenshot of my professional portfolio website demonstrating responsive web design"
+                     loading="lazy">
+
+                <figcaption>
+                    My professional portfolio,
+                    developed using HTML, CSS,
+                    Flexbox, Grid, and media queries.
+                </figcaption>
+
+            </figure>
 
             <p>
                 Exploring HTML, CSS, responsive
@@ -128,6 +226,18 @@
                 and techniques I've learned.
             </p>
 
+            <p>
+                Through this project, I have
+                developed responsive navigation,
+                structured page layouts, and
+                mobile-friendly interfaces.
+            </p>
+
+            <a class="project-link"
+               href="index.html">
+                View Portfolio Home
+            </a>
+
             <span class="project-tag">
                 HTML &amp; CSS
             </span>
@@ -135,13 +245,33 @@
         </article>
 
 
-        <!-- Project 2 -->
+        <!-- ==========================
+             Project 2: Instructional Design
+        ========================== -->
 
-        <article class="project-card">
+        <article class="project-card"
+                 id="instructional-design">
 
             <div class="project-number">02</div>
 
             <h3>Instructional Design</h3>
+
+            <!-- Project Artifact -->
+
+            <figure class="project-artifact">
+
+                <img src="images/vlan-project.png"
+                     alt="Screenshot of my VLAN instructional website demonstrating technology-based learning"
+                     loading="lazy">
+
+                <figcaption>
+                    A technology learning project
+                    designed to explain virtual
+                    local area networks through
+                    instructional media.
+                </figcaption>
+
+            </figure>
 
             <p>
                 Designing learning experiences
@@ -157,6 +287,21 @@
                 more accessible.
             </p>
 
+            <p>
+                My VLAN instructional project
+                demonstrates how visual examples,
+                multimedia, and structured
+                learning activities can help
+                communicate technical concepts.
+            </p>
+
+            <a class="project-link"
+               href="https://learn.vlans.io/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Explore VLAN Learning Project
+            </a>
+
             <span class="project-tag">
                 Education &amp; Learning
             </span>
@@ -164,13 +309,33 @@
         </article>
 
 
-        <!-- Project 3 -->
+        <!-- ==========================
+             Project 3: IT Leadership
+        ========================== -->
 
-        <article class="project-card">
+        <article class="project-card"
+                 id="it-leadership">
 
             <div class="project-number">03</div>
 
             <h3>IT Leadership</h3>
+
+            <!-- Project Artifact -->
+
+            <figure class="project-artifact">
+
+                <img src="images/it-leadership.png"
+                     alt="Technology process improvement diagram illustrating IT leadership and operational planning"
+                     loading="lazy">
+
+                <figcaption>
+                    A visual representation of
+                    technology operations,
+                    process improvement, and
+                    organizational leadership.
+                </figcaption>
+
+            </figure>
 
             <p>
                 Applying technical expertise
@@ -185,6 +350,13 @@
                 technical instruction,
                 cybersecurity, and
                 technology leadership.
+            </p>
+
+            <p>
+                I focus on identifying operational
+                challenges, improving processes,
+                and developing technology solutions
+                that support organizational goals.
             </p>
 
             <span class="project-tag">
@@ -202,7 +374,9 @@
      Future Projects
 ========================== -->
 
-<section class="projects-section">
+<section class="projects-section"
+         id="future-projects"
+         aria-labelledby="future-title">
 
     <div class="intro-heading">
 
@@ -210,7 +384,9 @@
             CONTINUING TO GROW
         </span>
 
-        <h2>What's Next?</h2>
+        <h2 id="future-title">
+            What's Next?
+        </h2>
 
         <div class="accent-line"></div>
 
