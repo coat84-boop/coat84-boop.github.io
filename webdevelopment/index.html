@@ -73,10 +73,109 @@
 <body>
 
 <!-- ==========================
-     Shared Header
+     Site Header and Navigation
 ========================== -->
 
-<?php include 'header.php'; ?>
+<header class="testheader">
+
+    <!-- Portfolio Logo -->
+
+    <img src="images/logo.png"
+         alt="Coleman Mallicoat Portfolio Logo"
+         class="site-logo">
+
+    <!-- Mobile Navigation Toggle -->
+
+    <input type="checkbox"
+           id="menu-toggle"
+           class="menu-toggle">
+
+    <label for="menu-toggle"
+           class="hamburger">
+
+        <span class="visually-hidden">
+            Toggle navigation menu
+        </span>
+
+        &#9776;
+
+    </label>
+
+    <!-- Main Navigation Menu -->
+
+    <nav aria-label="Main navigation">
+
+        <ul>
+
+            <li>
+                <a href="index.html"
+                   aria-current="page">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="about.html">
+                    About Me
+                </a>
+            </li>
+
+            <!-- Projects Dropdown Menu -->
+
+            <li class="dropdown">
+
+                <a href="projects.html">
+                    Projects &#9662;
+                </a>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#web-development">
+                            Web Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#instructional-design">
+                            Instructional Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#it-leadership">
+                            IT Leadership
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="reflection.html">
+                    Reflection
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
 
 
 <!-- ==========================
