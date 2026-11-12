@@ -1458,3 +1458,26 @@ p {
     }
 }
 
+
+/* ==========================
+   Custom styles for all <h1> elements
+========================== */
+
+h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* ==========================
+   Custom styles for <h2> elements
+========================== */
+
+h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    text-decoration-color: #F59E0B;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
