@@ -1,1 +1,237 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==========================
+     Document Information
+     Name: Coleman Mallicoat
+     Date: 11/12/2026
+     Course: ISLT 7355 - Web Development and Design
+     Description: Professional Portfolio Home Page
+========================== -->
+
+<head>
+    <!-- ==========================
+         Page Metadata
+    ========================== -->
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Home | Coleman Mallicoat</title>
+
+    <!-- ==========================
+         Google Fonts
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <!-- Custom font used here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ==========================
+         Stylesheets
+    ========================== -->
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- ==========================
+         Favicons and Site Manifest
+    ========================== -->
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest"
+          href="site.webmanifest">
+
+</head>
+
+<body>
+
+<!-- ==========================
+     Shared Header
+========================== -->
+
+<?php include 'header.php'; ?>
+
+
+<!-- ==========================
+     Main Page Content
+========================== -->
+
+<main>
+
+    <!-- ==========================
+         Hero Section
+    ========================== -->
+
+    <section class="hero"
+             aria-labelledby="hero-title">
+
+        <!-- Hero Background Image -->
+
+        <img src="images/hero.png"
+             alt="A team collaborating using technology"
+             class="hero-image">
+
+        <!-- Accessible Hero Heading -->
+
+        <h1 id="hero-title"
+            class="visually-hidden">
+            People First. Technology With a Purpose.
+        </h1>
+
+        <!-- Hero Content -->
+
+        <div class="hero-content">
+
+            <!-- Welcome Heading -->
+
+            <div class="intro-heading">
+
+                <span class="intro-label">
+                    WELCOME TO MY PORTFOLIO
+                </span>
+
+                <h2>
+                    Technology is about people.
+                </h2>
+
+                <div class="accent-line"></div>
+
+            </div>
+
+            <!-- Introduction and Philosophy -->
+
+            <div class="intro-grid">
+
+                <!-- Portfolio Introduction -->
+
+                <div class="intro-text">
+
+                    <h3>
+                        A Little About This Site
+                    </h3>
+
+                    <p>
+                        Welcome to my professional
+                        portfolio! This website
+                        highlights my professional
+                        background, educational
+                        experiences, technical
+                        accomplishments, and future
+                        aspirations. Throughout my
+                        career, I have developed a
+                        passion for using technology
+                        to solve problems, improve
+                        organizational processes,
+                        and help people achieve
+                        their goals. My philosophy
+                        is simple: technology
+                        should serve people, not
+                        the other way around.
+                    </p>
+
+                    <p>
+                        As I continue my graduate
+                        education at the University
+                        of Missouri, I am expanding
+                        my knowledge of instructional
+                        design, educational technology,
+                        and web development. This
+                        portfolio demonstrates the
+                        skills I am developing through
+                        coursework and professional
+                        experience. My long-term goal
+                        is to combine technical
+                        expertise, leadership, and
+                        effective instructional
+                        practices to create meaningful
+                        learning experiences and
+                        technology solutions that
+                        empower individuals and
+                        organizations to succeed.
+                    </p>
+
+                </div>
+
+                <!-- Personal Philosophy -->
+
+                <div class="philosophy-card">
+
+                    <h3>
+                        My Philosophy
+                    </h3>
+
+                    <p class="philosophy-quote">
+                        People should drive
+                        technology, not the
+                        other way around.
+                    </p>
+
+                    <p>
+                        Purposeful technology
+                        begins with understanding
+                        the people who use it.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- About Page Call to Action -->
+
+            <a href="about.html"
+               class="cta-button">
+                Learn More &rarr;
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ==========================
+         Favorite Quote
+    ========================== -->
+
+    <blockquote class="TestRule2">
+        Only when the pain of staying the same
+        becomes greater than the pain of change,
+        will we do so.
+    </blockquote>
+
+</main>
+
+
+<!-- ==========================
+     Shared Footer
+========================== -->
+
+<?php include 'footer.php'; ?>
+
+</body>
+</html>
