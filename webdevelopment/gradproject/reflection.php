@@ -1,1 +1,519 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==========================
+     Document Information
+     Name: Coleman Mallicoat
+     Date: 11/12/2026
+     Course: ISLT 7355 - Web Development and Design
+     Description: Professional Portfolio Reflection Page
+========================== -->
+
+<head>
+
+    <!-- ==========================
+         Page Metadata
+    ========================== -->
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Reflection | Coleman Mallicoat</title>
+
+    <!-- ==========================
+         Google Fonts
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <!-- Custom font used here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ==========================
+         Stylesheets
+    ========================== -->
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- ==========================
+         Favicons and Site Manifest
+    ========================== -->
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest"
+          href="site.webmanifest">
+
+</head>
+
+<body>
+
+<!-- ==========================
+     Shared Header
+========================== -->
+
+<?php include 'header.php'; ?>
+
+
+<!-- ==========================
+     Main Page Content
+========================== -->
+
+<main>
+
+    <!-- ==========================
+         Reflection Image Banner
+    ========================== -->
+
+    <section class="page-banner"
+             aria-labelledby="reflection-title">
+
+        <!-- Banner Image -->
+
+        <img src="images/reflection-banner.png"
+             alt="A winding road through a peaceful landscape at sunrise, symbolizing personal and professional growth">
+
+        <!-- Banner Content -->
+
+        <div class="page-banner-content">
+
+            <h1 id="reflection-title">
+                The Journey Matters
+            </h1>
+
+            <p>
+                Service. Growth. Leadership. Purpose.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Page Introduction
+    ========================== -->
+
+    <section class="reflection-intro"
+             aria-labelledby="reflection-intro-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                LESSONS ALONG THE WAY
+            </span>
+
+            <h2 id="reflection-intro-title">
+                Professional Reflections
+            </h2>
+
+            <div class="accent-line"></div>
+
+            <!-- Introduction Description -->
+
+            <p class="reflection-subtitle">
+                My journey through military service,
+                technology, education, leadership,
+                and the pursuit of a meaningful future.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Professional Journey
+    ========================== -->
+
+    <section class="reflection-section"
+             aria-labelledby="journey-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                WHERE IT ALL BEGAN
+            </span>
+
+            <h2 id="journey-title">
+                My Professional Journey
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Professional Experience -->
+
+        <div class="reflection-content">
+
+            <h3>From the Trades to Technology</h3>
+
+            <p>
+                I have followed an unconventional career path.
+                Before joining the United States Army in 2007,
+                my experience was primarily in the trades.
+                I worked as a general contractor, a siding
+                and roofing contractor, and even as a UPS
+                truck loader.
+            </p>
+
+            <p>
+                When I enlisted, I became a truck driver.
+                After approximately five years in Army
+                transportation, I decided to pursue a
+                career that would challenge me intellectually
+                rather than physically.
+            </p>
+
+            <p>
+                I reclassified to 25S, Satellite Communication
+                Systems Operator-Maintainer, and spent the
+                next eight years developing technical skills
+                ranging from satellite telemetry and spectrum
+                analysis to router and switch configuration
+                and Active Directory administration.
+            </p>
+
+            <p>
+                During my military career, I also earned
+                the rank of Sergeant First Class and
+                graduated from both the Advanced Leader
+                Course and Senior Leader Course.
+                Those experiences strengthened my
+                ability to lead teams in demanding
+                operational environments.
+            </p>
+
+            <p>
+                Today, I serve as the Director of Digital
+                Workspace and Technology Services for
+                the Hospital Industry Data Institute
+                in Jefferson City, Missouri.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Education and Certifications
+    ========================== -->
+
+    <section class="reflection-section"
+             aria-labelledby="education-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                NEVER STOP LEARNING
+            </span>
+
+            <h2 id="education-title">
+                Education &amp; Professional Development
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Education and Certification Cards -->
+
+        <div class="reflection-grid">
+
+            <!-- Academic Journey -->
+
+            <article class="reflection-card">
+
+                <h3>Academic Journey</h3>
+
+                <p>
+                    While serving in the Army and
+                    building my civilian career,
+                    I spent approximately seven
+                    years studying at Western
+                    Governors University.
+                </p>
+
+                <!-- Academic Degrees -->
+
+                <ul class="reflection-list">
+
+                    <li>
+                        BS in Network Operations
+                        and Security — 2020
+                    </li>
+
+                    <li>
+                        MS in Cybersecurity and
+                        Information Assurance — 2022
+                    </li>
+
+                    <li>
+                        MBA in Information Technology
+                        Management — 2024
+                    </li>
+
+                </ul>
+
+                <p>
+                    I am currently enrolled in the
+                    Learning Technologies and Design
+                    graduate program at the University
+                    of Missouri, with an anticipated
+                    graduation in spring 2028.
+                </p>
+
+            </article>
+
+
+            <!-- Industry Certifications -->
+
+            <article class="reflection-card">
+
+                <h3>Industry Certifications</h3>
+
+                <p>
+                    Throughout my professional
+                    development, I have also earned
+                    certifications across networking,
+                    cybersecurity, project management,
+                    and information technology.
+                </p>
+
+                <!-- Certification List -->
+
+                <ul class="reflection-list">
+
+                    <li>CompTIA A+</li>
+                    <li>CompTIA Network+</li>
+                    <li>CompTIA Project+</li>
+                    <li>CompTIA Cloud Essentials</li>
+                    <li>Cisco CCNA</li>
+                    <li>LPI Linux Essentials</li>
+                    <li>Certified Ethical Hacker (CEH)</li>
+
+                </ul>
+
+            </article>
+
+        </div>
+
+        <!-- Education Reflection -->
+
+        <div class="reflection-highlight">
+
+            <p>
+                My technical experience and education
+                have helped me develop the ability
+                to translate complex technical concepts
+                into language that connects with
+                organizational and business needs.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Leadership Philosophy
+    ========================== -->
+
+    <section class="reflection-section"
+             aria-labelledby="leadership-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                PEOPLE BEFORE TECHNOLOGY
+            </span>
+
+            <h2 id="leadership-title">
+                My Leadership Philosophy
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Leadership Reflection -->
+
+        <div class="reflection-content">
+
+            <h3>Communication Is My Greatest Strength</h3>
+
+            <p>
+                Although I currently serve in a
+                director-level role, I remain
+                interested in advancing into
+                executive technology leadership,
+                potentially as a Chief Information
+                Security Officer or Chief
+                Information Officer.
+            </p>
+
+            <p>
+                My background in cybersecurity,
+                understanding of risk management,
+                and curiosity have shaped the way
+                I approach complex problems.
+                I believe in looking beyond the
+                obvious and continually asking
+                how systems and processes
+                can be improved.
+            </p>
+
+            <p>
+                More than anything, I consider
+                communication my greatest strength.
+                Having spent much of my life
+                learning how to make myself
+                understood, I recognize the
+                importance of creating environments
+                where people feel comfortable
+                asking questions, sharing ideas,
+                and accepting accountability.
+            </p>
+
+            <p>
+                I also value effective time
+                management and sustainable
+                working habits. I believe
+                successful leadership means
+                building systems and teams
+                that can perform effectively
+                without relying on constant
+                work outside normal business hours.
+            </p>
+
+        </div>
+
+        <!-- Leadership Philosophy Highlight -->
+
+        <div class="reflection-highlight">
+
+            <p>
+                Great leadership isn't just about
+                understanding technology.
+                It's about understanding people.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Future Aspirations
+    ========================== -->
+
+    <section class="reflection-section"
+             aria-labelledby="aspirations-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                LOOKING TOWARD THE FUTURE
+            </span>
+
+            <h2 id="aspirations-title">
+                Personal &amp; Professional Aspirations
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Personal and Professional Goals -->
+
+        <div class="reflection-content">
+
+            <h3>Building a Meaningful Future</h3>
+
+            <p>
+                My long-term goal is to continue
+                working, learning, and contributing
+                over the next several years,
+                with the hope of retiring around
+                age 55.
+            </p>
+
+            <p>
+                Along the way, I want to continue
+                developing as a leader, expanding
+                my education, and pursuing
+                opportunities that allow me
+                to make a meaningful difference.
+            </p>
+
+            <p>
+                Beyond my professional ambitions,
+                my wife and I hope to build a
+                quieter and more sustainable
+                lifestyle, with a smaller home,
+                more land, room for our animals,
+                and greater privacy.
+            </p>
+
+            <p>
+                Ultimately, success means more
+                than professional recognition
+                or financial achievement.
+                It means creating a life
+                that reflects our priorities
+                and gives us the freedom
+                to enjoy what matters most.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ==========================
+     Shared Footer
+========================== -->
+
+<?php include 'footer.php'; ?>
+
+</body>
+</html>
