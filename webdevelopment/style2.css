@@ -1481,3 +1481,18 @@ h2 {
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
+
+
+/* ==========================
+   Project Description and Reflection Headings
+========================== */
+
+.project-card h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #0000FF;
+    margin: 20px 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #F59E0B;
+}
