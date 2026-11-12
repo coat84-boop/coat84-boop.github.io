@@ -2,327 +2,559 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--
-    Name: Coleman Mallicoat
-    Date: 11/4/2026
-    Course: ISLT 7355 - Web Development and Design
-    Description: Professional Portfolio - About Me
--->
+<!-- ==========================
+     Document Information
+     Name: Coleman Mallicoat
+     Date: 11/12/2026
+     Course: ISLT 7355 - Web Development and Design
+     Description: Professional Portfolio About Me Page
+========================== -->
 
 <head>
+
+    <!-- ==========================
+         Page Metadata
+    ========================== -->
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<!-- Custom font used here -->
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style2.css">
-	<link rel="stylesheet" href="nav.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="manifest" href="site.webmanifest">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>About Me | Coleman Mallicoat</title>
+
+    <!-- ==========================
+         Google Fonts
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <!-- Custom font used here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ==========================
+         Stylesheets
+    ========================== -->
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- ==========================
+         Favicons and Site Manifest
+    ========================== -->
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest"
+          href="site.webmanifest">
+
 </head>
 
 <body>
 
-<!-- My header includes link to other pages, each page currently has identical code and are presented the same way, this will change as I progress through the course -->
+<!-- ==========================
+     Site Header and Navigation
+========================== -->
+
 <header class="testheader">
 
-    <img src="images/logo.png" alt="Portfolio Logo" class="site-logo">
+    <!-- Portfolio Logo -->
 
-<!-- Mobile Menu Toggle -->
-<input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <img src="images/logo.png"
+         alt="Coleman Mallicoat Portfolio Logo"
+         class="site-logo">
 
-<label for="menu-toggle" class="hamburger">
-    <span class="visually-hidden">Toggle navigation menu</span>
-    &#9776;
-</label>
+    <!-- Mobile Navigation Toggle -->
 
-    <!-- Navigation Bar with Dropdown Menu -->
+    <input type="checkbox"
+           id="menu-toggle"
+           class="menu-toggle">
+
+    <label for="menu-toggle"
+           class="hamburger">
+
+        <span class="visually-hidden">
+            Toggle navigation menu
+        </span>
+
+        &#9776;
+
+    </label>
+
+    <!-- Main Navigation Menu -->
+
     <nav aria-label="Main navigation">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Me</a></li>
 
-        <!-- Dropdown Navigation -->
-        <li class="dropdown">
-            <a href="projects.html">Projects ▾</a>
+        <ul>
 
-            <ul class="dropdown-menu">
-                <li><a href="projects.html">All Projects</a></li>
-                <li><a href="reflection.html">Reflection</a></li>
-            </ul>
-        </li>
+            <li>
+                <a href="index.html">
+                    Home
+                </a>
+            </li>
 
-        <li><a href="reflection.html">Reflection</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
+            <li>
+                <a href="about.html"
+                   aria-current="page">
+                    About Me
+                </a>
+            </li>
+
+            <!-- Projects Dropdown Menu -->
+
+            <li class="dropdown">
+
+                <a href="projects.html">
+                    Projects &#9662;
+                </a>
+
+                <ul class="dropdown-menu">
+
+                    <li>
+                        <a href="projects.html">
+                            All Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#web-development">
+                            Web Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#instructional-design">
+                            Instructional Design
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="projects.html#it-leadership">
+                            IT Leadership
+                        </a>
+                    </li>
+
+                </ul>
+
+            </li>
+
+            <li>
+                <a href="reflection.html">
+                    Reflection
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
 </header>
 
 
+<!-- ==========================
+     Main Page Content
+========================== -->
+
 <main>
 
-<!-- ==========================
-     About Me Image Banner
-========================== -->
+    <!-- ==========================
+         About Me Image Banner
+    ========================== -->
 
-<section class="page-banner">
+    <section class="page-banner"
+             aria-labelledby="about-title">
 
-    <img src="images/about-banner.png"
-         alt="Professionals collaborating in a modern workplace">
+        <!-- Banner Image -->
 
-    <div class="page-banner-content">
-        <h1>Leadership Through Experience</h1>
-        <p>Technology. Education. Service. Growth.</p>
-    </div>
+        <img src="images/about-banner.png"
+             alt="Professionals collaborating in a modern workplace">
 
-</section>
+        <!-- Banner Content -->
 
+        <div class="page-banner-content">
 
-<!-- ==========================
-     Professional Background
-========================== -->
-
-<div class="about-print">
-
-<section class="about-section">
-
-    <div class="intro-heading">
-
-        <span class="intro-label">
-            MY JOURNEY
-        </span>
-
-        <h2>Professional Background</h2>
-
-        <div class="accent-line"></div>
-
-    </div>
-
-    <!-- Professional Headshot -->
-
-    <img class="headshot"
-         src="images/Headshot.png"
-         alt="Professional headshot of Coleman Mallicoat">
-
-    <div class="intro-grid">
-
-        <!-- Biography -->
-
-        <div class="intro-text">
-
-            <h3>Leadership, Technology &amp; Education</h3>
-
-            <h1 class="print-name">Coleman Mallicoat</h1>
-            
-            <p>
-                My name is Coleman Mallicoat, and I currently
-                serve as the Director of Digital Workspace
-                and Technology Services for the Hospital
-                Industry Data Institute.
-            </p>
+            <h1 id="about-title">
+                Leadership Through Experience
+            </h1>
 
             <p>
-                I hold a Master of Science in Cybersecurity
-                and Information Assurance and an MBA in
-                Information Technology Management, both
-                from Western Governors University.
-            </p>
-
-            <p>
-                Before my current position, I spent seven
-                years in technical college academia as an
-                instructor of Satellite Communications
-                and Information Technology.
-            </p>
-
-            <p>
-                I also served 13.5 years in the United
-                States Army before being medically retired
-                in January 2021. My military career
-                shaped my approach to leadership,
-                responsibility, and professional growth.
+                Technology. Education. Service. Growth.
             </p>
 
         </div>
 
-        <!-- Professional Highlights -->
+    </section>
 
-        <div class="philosophy-card">
 
-            <h3>Professional Highlights</h3>
+    <!-- ==========================
+         Professional Background
+    ========================== -->
 
-            <ul class="about-list">
-                <li>
-                    Director of Digital Workspace
-                    and Technology Services
-                </li>
-                <li>
-                    MS in Cybersecurity and
-                    Information Assurance
-                </li>
-                <li>
-                    MBA in Information Technology
-                    Management
-                </li>
-                <li>
-                    Former Information Technology Instructor
-                </li>
-                <li>
-                    13.5 years of service in the U.S. Army
-                </li>
-            </ul>
+    <div class="about-print">
+
+        <section class="about-section"
+                 aria-labelledby="background-title">
+
+            <!-- Section Heading -->
+
+            <div class="intro-heading">
+
+                <span class="intro-label">
+                    MY JOURNEY
+                </span>
+
+                <h2 id="background-title">
+                    Professional Background
+                </h2>
+
+                <div class="accent-line"></div>
+
+            </div>
+
+            <!-- Professional Headshot -->
+
+            <img class="headshot"
+                 src="images/Headshot.png"
+                 alt="Professional headshot of Coleman Mallicoat">
+
+            <!-- Biography and Professional Highlights -->
+
+            <div class="intro-grid">
+
+                <!-- Professional Biography -->
+
+                <div class="intro-text">
+
+                    <h3>
+                        Leadership, Technology &amp; Education
+                    </h3>
+
+                    <h1 class="print-name">
+                        Coleman Mallicoat
+                    </h1>
+
+                    <p>
+                        My name is Coleman Mallicoat,
+                        and I currently serve as the
+                        Director of Digital Workspace
+                        and Technology Services for
+                        the Hospital Industry Data
+                        Institute. In this role,
+                        I focus on improving technology
+                        operations, supporting
+                        organizational initiatives,
+                        and developing solutions that
+                        help people work more effectively.
+                    </p>
+
+                    <p>
+                        I hold a Master of Science
+                        in Cybersecurity and
+                        Information Assurance and
+                        an MBA in Information
+                        Technology Management,
+                        both from Western Governors
+                        University. My educational
+                        background complements my
+                        professional experience in
+                        technology management,
+                        cybersecurity, and leadership.
+                    </p>
+
+                    <p>
+                        Before my current position,
+                        I spent seven years in
+                        technical college academia
+                        as an instructor of Satellite
+                        Communications and Information
+                        Technology. Teaching strengthened
+                        my passion for education
+                        and helping others develop
+                        technical knowledge and
+                        practical skills.
+                    </p>
+
+                    <p>
+                        I also served 13.5 years
+                        in the United States Army
+                        before being medically retired
+                        in January 2021. My military
+                        career shaped my approach
+                        to leadership, responsibility,
+                        and professional growth.
+                        These experiences continue
+                        to influence my belief
+                        that effective leadership
+                        begins with understanding
+                        and supporting people.
+                    </p>
+
+                </div>
+
+                <!-- Professional Highlights -->
+
+                <div class="philosophy-card">
+
+                    <h3>
+                        Professional Highlights
+                    </h3>
+
+                    <ul class="about-list">
+
+                        <li>
+                            Director of Digital Workspace
+                            and Technology Services
+                        </li>
+
+                        <li>
+                            MS in Cybersecurity and
+                            Information Assurance
+                        </li>
+
+                        <li>
+                            MBA in Information Technology
+                            Management
+                        </li>
+
+                        <li>
+                            Former Information Technology
+                            Instructor
+                        </li>
+
+                        <li>
+                            13.5 years of service
+                            in the U.S. Army
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+    <!-- ==========================
+         Academic Aspirations
+    ========================== -->
+
+    <section class="about-section no-print"
+             aria-labelledby="aspirations-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                LOOKING AHEAD
+            </span>
+
+            <h2 id="aspirations-title">
+                Academic Aspirations
+            </h2>
+
+            <div class="accent-line"></div>
 
         </div>
 
-    </div>
+        <!-- Academic Goals -->
 
-</section>
+        <div class="academic-card">
 
-</div>
-    
-<!-- ==========================
-     Academic Aspirations
-========================== -->
-    
-<section class="about-section no-print">
+            <h3>
+                My Next Chapter
+            </h3>
 
-    <div class="intro-heading">
+            <p>
+                I've accomplished much
+                throughout my academic,
+                professional, and personal
+                life, but I believe there
+                is still much more to
+                learn and contribute.
+            </p>
 
-        <span class="intro-label">
-            LOOKING AHEAD
-        </span>
+            <p>
+                My current graduate studies
+                represent another step
+                toward my long-term goal
+                of returning to academia
+                permanently.
+            </p>
 
-        <h2>Academic Aspirations</h2>
+            <p>
+                I hope to pursue and
+                complete a PhD in
+                Information Science and
+                Learning Technologies
+                at the University of
+                Missouri, with the goal
+                of becoming a tenure-track
+                assistant professor.
+            </p>
 
-        <div class="accent-line"></div>
+        </div>
 
-    </div>
+    </section>
 
-    <div class="academic-card">
 
-        <h3>My Next Chapter</h3>
+    <!-- ==========================
+         Video Resume
+    ========================== -->
 
-        <p>
-            I've accomplished much throughout my
-            academic, professional, and personal life,
-            but I believe there is still much more
-            to learn and contribute.
+    <section class="resume-video"
+             aria-labelledby="video-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                BEYOND THE RESUME
+            </span>
+
+            <h2 id="video-title">
+                My Video Resume
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Video Introduction -->
+
+        <p class="section-description no-print">
+            Learn more about my professional
+            experience, background, and
+            career aspirations.
         </p>
 
-        <p>
-            My current graduate studies represent
-            another step toward my long-term goal
-            of returning to academia permanently.
-        </p>
+        <!-- Professional Video -->
 
-        <p>
-            I hope to pursue and complete a PhD
-            in Information Science and Learning
-            Technologies at the University of
-            Missouri, with the goal of becoming
-            a tenure-track assistant professor.
-        </p>
+        <video controls
+               preload="metadata"
+               aria-label="Video resume describing my professional background">
 
-    </div>
+            <source src="videos/video.mp4"
+                    type="video/mp4">
 
-</section>
-    
-<!-- ==========================
-     Video Resume
-========================== -->
+            Your browser does not support
+            the video tag.
 
-<section class="resume-video">
+        </video>
 
-    <div class="intro-heading">
+        <!-- PDF Resume Link -->
 
-        <span class="intro-label">
-            BEYOND THE RESUME
-        </span>
+        <div class="resume-container">
 
-        <h2>My Video Resume</h2>
+            <a href="webcontent/resume.pdf"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="resume-link">
 
-        <div class="accent-line"></div>
+                View My Resume &rarr;
 
-    </div>
+            </a>
 
-    <p class="section-description no-print">
-        Learn more about my professional experience,
-        background, and career aspirations.
-    </p>
+        </div>
 
-    <video controls
-           preload="metadata"
-           aria-label="Video resume describing my professional background">
-
-        <source src="videos/video.mp4" type="video/mp4">
-
-        Your browser does not support the video tag.
-
-    </video>
-
-    <div class="resume-container">
-
-        <a href="webcontent/resume.pdf"
-           target="_blank"
-           rel="noopener noreferrer"
-           class="resume-link">
-            View My Resume &rarr;
-        </a>
-
-    </div>
-
-</section>
+    </section>
 
 
-<!-- ==========================
-     Personal Reflection
-========================== -->
+    <!-- ==========================
+         Personal Reflection
+    ========================== -->
 
-<section class="about-section">
+    <section class="about-section"
+             aria-labelledby="human-experience-title">
 
-    <div class="intro-heading">
+        <!-- Section Heading -->
 
-        <span class="intro-label">
-            A PERSONAL REFLECTION
-        </span>
+        <div class="intro-heading">
 
-        <h2 class="no-print">The Human Experience</h2>
+            <span class="intro-label">
+                A PERSONAL REFLECTION
+            </span>
 
-        <div class="accent-line"></div>
+            <h2 id="human-experience-title"
+                class="no-print">
+                The Human Experience
+            </h2>
 
-    </div>
+            <div class="accent-line"></div>
 
-    <blockquote class="TestRule2">
-        All too often we fall into the trap of
-        believing that because our circumstances
-        are unusual, the emotions and struggles
-        they produce must be inaccessible to
-        anyone who hasn't experienced them.
+        </div>
 
-        But that isn't the truth. It's our minds
-        telling us we're terminally unique.
+        <!-- Personal Philosophy Quote -->
 
-        We aren't. The human experience is
-        collective, even when the circumstances
-        change.
-    </blockquote>
+        <blockquote class="TestRule2">
 
-</section>
+            All too often we fall into
+            the trap of believing that
+            because our circumstances
+            are unusual, the emotions
+            and struggles they produce
+            must be inaccessible to
+            anyone who hasn't
+            experienced them.
+
+            But that isn't the truth.
+            It's our minds telling us
+            we're terminally unique.
+
+            We aren't. The human
+            experience is collective,
+            even when the circumstances
+            change.
+
+        </blockquote>
+
+    </section>
 
 </main>
-    
+
+
 <!-- ==========================
-     Footer
+     Site Footer
 ========================== -->
 
 <footer class="FooterTest">
 
+    <!-- Contact Information -->
+
     <div class="footer-contact">
+
+        <!-- Phone Contact -->
 
         <div class="contact-item">
 
@@ -333,12 +565,14 @@
 
         </div>
 
+        <!-- Email Contact -->
+
         <div class="contact-item">
 
             <img src="images/email.png"
                  alt="Email icon">
 
-            <a href="mailto:contact@example.com">
+            <a href="mailto:coleman.mallicoat84@gmail.com">
                 coleman.mallicoat84@gmail.com
             </a>
 
@@ -346,11 +580,13 @@
 
     </div>
 
-    <p>&copy; 2026 Coleman Mallicoat</p>
+    <!-- Copyright Information -->
+
+    <p>
+        &copy; 2026 Coleman Mallicoat
+    </p>
 
 </footer>
 
-</div>
-    
 </body>
 </html>
