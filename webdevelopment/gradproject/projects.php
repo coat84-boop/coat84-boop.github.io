@@ -1,1 +1,600 @@
 
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ==========================
+     Document Information
+     Name: Coleman Mallicoat
+     Date: 11/12/2026
+     Course: ISLT 7355 - Web Development and Design
+     Description: Professional Portfolio Projects Page
+========================== -->
+
+<head>
+
+    <!-- ==========================
+         Page Metadata
+    ========================== -->
+
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Projects | Coleman Mallicoat</title>
+
+    <!-- ==========================
+         Google Fonts
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <!-- Custom font used here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- ==========================
+         Stylesheets
+    ========================== -->
+
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- ==========================
+         Favicons and Site Manifest
+    ========================== -->
+
+    <link rel="apple-touch-icon"
+          sizes="180x180"
+          href="apple-touch-icon.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon-32x32.png">
+
+    <link rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon-16x16.png">
+
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="favicon.ico">
+
+    <link rel="manifest"
+          href="site.webmanifest">
+
+</head>
+
+<body>
+
+<!-- ==========================
+     Shared Header
+========================== -->
+
+<?php include 'header.php'; ?>
+
+<!-- ==========================
+     Main Page Content
+========================== -->
+
+<main>
+
+    <!-- ==========================
+         Projects Image Banner
+    ========================== -->
+
+    <section class="page-banner"
+             aria-labelledby="projects-title">
+
+        <!-- Banner Image -->
+
+        <img src="images/projects-banner.png"
+             alt="Modern technology workspace representing development and innovation">
+
+        <!-- Banner Content -->
+
+        <div class="page-banner-content">
+
+            <h1 id="projects-title">
+                Ideas Into Action
+            </h1>
+
+            <p>
+                Technology. Education. Innovation.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Learning Projects Table
+    ========================== -->
+
+    <section class="project-table-section"
+             aria-labelledby="learning-projects-title">
+
+        <!-- Table Introduction -->
+
+        <h2 id="learning-projects-title">
+            My Learning Projects
+        </h2>
+
+        <p>
+            An overview of projects and the skills
+            developed through each experience.
+        </p>
+
+        <!-- Responsive Table Container -->
+
+        <div class="table-container">
+
+            <table class="project-table">
+
+                <caption>
+                    Portfolio Projects and Learning Outcomes
+                </caption>
+
+                <!-- Table Column Headings -->
+
+                <thead>
+
+                    <tr>
+                        <th scope="col">Project</th>
+                        <th scope="col">Focus Area</th>
+                        <th scope="col">Skills Developed</th>
+                        <th scope="col">Status</th>
+                    </tr>
+
+                </thead>
+
+                <!-- Table Data -->
+
+                <tbody>
+
+                    <tr>
+                        <th scope="row">Portfolio Website</th>
+                        <td>Web Development</td>
+                        <td>HTML, CSS, Responsive Design</td>
+                        <td>Ongoing</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">VLAN Learning Module</th>
+                        <td>Instructional Design</td>
+                        <td>Multimedia, Assessment Design</td>
+                        <td>Completed</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Research Methods Survey</th>
+                        <td>Educational Research</td>
+                        <td>Survey Design, Data Collection</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Training Portal</th>
+                        <td>Workplace Learning</td>
+                        <td>SharePoint, Training Resources</td>
+                        <td>In Progress</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Project Showcase
+    ========================== -->
+
+    <section class="projects-section"
+             aria-labelledby="showcase-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                MY AREAS OF FOCUS
+            </span>
+
+            <h2 id="showcase-title">
+                Project Showcase
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Responsive Project Grid -->
+
+        <div class="projects-grid">
+
+
+            <!-- ==========================
+                 Project 1: Web Development
+            ========================== -->
+
+            <article class="project-card"
+                     id="web-development">
+
+                <div class="project-number">01</div>
+
+                <h3>Web Development</h3>
+
+                <!-- Project Artifact -->
+
+                <figure class="project-artifact">
+
+                    <img src="images/Portfolio Website.png"
+                         alt="Screenshot of my professional portfolio website demonstrating responsive web design"
+                         loading="lazy">
+
+                    <figcaption>
+                        My professional portfolio,
+                        developed using HTML, CSS,
+                        Flexbox, Grid, and media queries.
+                    </figcaption>
+
+                </figure>
+
+                <!-- Project Description -->
+
+                <h4>Project Description</h4>
+
+                <p>
+                    This project focuses on the development
+                    of a professional portfolio website
+                    using HTML and CSS. Through my graduate
+                    coursework, I have explored fundamental
+                    web development concepts, including
+                    semantic HTML, responsive design,
+                    accessibility, and user-centered
+                    development practices. The website
+                    consists of five interconnected pages
+                    that showcase my professional background,
+                    educational experiences, technical
+                    projects, and personal reflections.
+                </p>
+
+                <p>
+                    Throughout development, I have implemented
+                    CSS Flexbox, Grid layouts, media queries,
+                    responsive navigation, interactive
+                    elements, and custom styling. I have
+                    also incorporated multimedia content,
+                    accessible navigation, structured
+                    tables, and visual enhancements to
+                    improve the overall user experience.
+                    The portfolio continues to evolve
+                    as I apply new techniques and refine
+                    my understanding of web design.
+                </p>
+
+                <!-- Project Reflection -->
+
+                <h4>Personal Reflection</h4>
+
+                <p>
+                    Developing this portfolio has helped
+                    me better understand the relationship
+                    between technical functionality and
+                    effective design. I have learned that
+                    creating a website involves more than
+                    simply writing code; it requires
+                    considering how users interact with
+                    information. Each new assignment
+                    provides an opportunity to improve
+                    the site while strengthening my
+                    confidence in HTML, CSS, and
+                    responsive development.
+                </p>
+
+                <!-- Project Link -->
+
+                <a class="project-link"
+                   href="index.html">
+                    View Portfolio Home
+                </a>
+
+                <!-- Project Category -->
+
+                <span class="project-tag">
+                    HTML &amp; CSS
+                </span>
+
+            </article>
+
+
+            <!-- ==========================
+                 Project 2: Instructional Design
+            ========================== -->
+
+            <article class="project-card"
+                     id="instructional-design">
+
+                <div class="project-number">02</div>
+
+                <h3>Instructional Design</h3>
+
+                <!-- Project Artifact -->
+
+                <figure class="project-artifact">
+
+                    <img src="images/Learn VLANs Website.png"
+                         alt="Screenshot of my VLAN instructional website demonstrating technology-based learning"
+                         loading="lazy">
+
+                    <figcaption>
+                        A technology learning project
+                        designed to explain virtual
+                        local area networks through
+                        instructional media.
+                    </figcaption>
+
+                </figure>
+
+                <!-- Project Description -->
+
+                <h4>Project Description</h4>
+
+                <p>
+                    This instructional design project
+                    focuses on developing an accessible
+                    learning experience that introduces
+                    students to Virtual Local Area
+                    Networks (VLANs). The project was
+                    created to demonstrate how multimedia,
+                    structured instruction, and practical
+                    examples can simplify complex
+                    networking concepts. The learning
+                    environment introduces foundational
+                    networking terminology and explains
+                    how VLANs are used to logically
+                    separate network traffic within
+                    an organization.
+                </p>
+
+                <p>
+                    The instructional website incorporates
+                    visual examples, multimedia
+                    presentations, organized learning
+                    objectives, and assessment activities
+                    designed to reinforce understanding.
+                    The project also explores the use
+                    of analogies and experiential learning
+                    to connect unfamiliar technical
+                    concepts with recognizable
+                    real-world situations. By combining
+                    technical accuracy with thoughtful
+                    instructional design, the project
+                    demonstrates how educational
+                    technology can support learners
+                    with different levels of
+                    prior knowledge.
+                </p>
+
+                <!-- Project Reflection -->
+
+                <h4>Personal Reflection</h4>
+
+                <p>
+                    This project reinforced my belief
+                    that effective instruction begins
+                    with understanding the learner.
+                    Technical knowledge alone does not
+                    guarantee that information will
+                    be understood or retained. I found
+                    value in translating complicated
+                    networking concepts into relatable
+                    examples and structured learning
+                    experiences. The process strengthened
+                    my interest in instructional design
+                    and the role of technology in
+                    improving learning outcomes.
+                </p>
+
+                <!-- Project Link -->
+
+                <a class="project-link"
+                   href="https://sites.google.com/view/learn-vlans-io/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Explore VLAN Learning Project
+                </a>
+
+                <!-- Project Category -->
+
+                <span class="project-tag">
+                    Education &amp; Learning
+                </span>
+
+            </article>
+
+
+            <!-- ==========================
+                 Project 3: IT Leadership
+            ========================== -->
+
+            <article class="project-card"
+                     id="it-leadership">
+
+                <div class="project-number">03</div>
+
+                <h3>IT Leadership</h3>
+
+                <!-- Project Artifact -->
+
+                <figure class="project-artifact">
+
+                    <img src="images/IT Leadership.png"
+                         alt="Technology process improvement diagram illustrating IT leadership and operational planning"
+                         loading="lazy">
+
+                    <figcaption>
+                        A visual representation of
+                        technology operations,
+                        process improvement, and
+                        organizational leadership.
+                    </figcaption>
+
+                </figure>
+
+                <!-- Project Description -->
+
+                <h4>Project Description</h4>
+
+                <p>
+                    My experience in information
+                    technology leadership reflects
+                    a combination of technical
+                    expertise, organizational
+                    management, and a commitment
+                    to improving how technology
+                    supports people. Throughout
+                    my professional career, I have
+                    worked in systems administration,
+                    technical instruction,
+                    cybersecurity, and operational
+                    support environments. These
+                    experiences have provided
+                    opportunities to identify
+                    technical challenges, develop
+                    solutions, and improve
+                    organizational processes.
+                </p>
+
+                <p>
+                    My approach to IT leadership
+                    emphasizes communication,
+                    collaboration, documentation,
+                    and continuous improvement.
+                    This includes evaluating
+                    existing workflows, identifying
+                    inefficiencies, developing
+                    training resources, and
+                    supporting technology initiatives
+                    that align with organizational
+                    objectives. I believe successful
+                    technology leadership requires
+                    understanding both the technical
+                    environment and the people
+                    who depend on it. By combining
+                    technical knowledge with
+                    practical leadership principles,
+                    I aim to create sustainable
+                    improvements that benefit
+                    individuals and organizations.
+                </p>
+
+                <!-- Project Reflection -->
+
+                <h4>Personal Reflection</h4>
+
+                <p>
+                    My professional experiences
+                    have taught me that leadership
+                    is not defined solely by
+                    technical knowledge or
+                    positional authority. Effective
+                    leaders must understand the
+                    needs of their teams, communicate
+                    expectations clearly, and
+                    create opportunities for
+                    improvement. I have learned
+                    that technology is most
+                    valuable when it serves
+                    people effectively. This
+                    perspective continues to
+                    influence my professional
+                    development and leadership
+                    philosophy.
+                </p>
+
+                <!-- Project Category -->
+
+                <span class="project-tag">
+                    Technology &amp; Leadership
+                </span>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==========================
+         Future Projects
+    ========================== -->
+
+    <section class="projects-section"
+             id="future-projects"
+             aria-labelledby="future-title">
+
+        <!-- Section Heading -->
+
+        <div class="intro-heading">
+
+            <span class="intro-label">
+                CONTINUING TO GROW
+            </span>
+
+            <h2 id="future-title">
+                What's Next?
+            </h2>
+
+            <div class="accent-line"></div>
+
+        </div>
+
+        <!-- Future Learning Goals -->
+
+        <div class="academic-card">
+
+            <h3>Learning Through Experience</h3>
+
+            <p>
+                This portfolio will continue to
+                evolve as I complete additional
+                coursework, develop new technical
+                skills, and explore opportunities
+                to combine technology with
+                effective instructional design.
+            </p>
+
+            <p>
+                Future updates will include
+                project examples, reflections,
+                and demonstrations of my work
+                in web development and education.
+            </p>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ==========================
+     Shared Footer
+========================== -->
+
+<?php include 'footer.php'; ?>
+
+</body>
+</html>
